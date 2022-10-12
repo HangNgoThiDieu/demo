@@ -1,0 +1,59 @@
+@import 'assets/styles/color';
+
+.wrapper {
+    .content_wrapper {
+
+        .content {
+            background: $backgroudColor;
+            padding: 12px 12px 0 12px;
+        
+            .number_table{
+                padding: 0 0 2px 0;
+            }
+        }
+        
+        .table_item {
+            padding: 10px 12px;
+            display: flex;
+            justify-content: space-between;
+
+            button {
+                height: fit-content;
+                height: -moz-fit-content;
+            }
+        }
+        
+        .time {
+            display: flex;
+            align-items: center;
+        }
+        
+        .label_time {
+            padding-left: 4px;
+        }
+        
+        .time_out {
+            margin-bottom: 8px;
+        }
+        
+        .line {
+            height: 1px;
+            background: $lineGray;
+        }
+
+        .list_table {
+            background: $white;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .part_left {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+    }
+}
+
+
+

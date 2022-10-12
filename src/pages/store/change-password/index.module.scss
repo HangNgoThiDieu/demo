@@ -1,0 +1,49 @@
+@import "assets/styles/_color.scss";
+
+.main_content {
+    padding: 12px;
+    height: 100%;
+    background-color: $backgroudColor;
+}
+
+.main_content ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.main_content li {
+    margin-bottom: 32px;
+}
+
+.main_content li:last-child {
+    margin-bottom: 0px;
+}
+
+.main_content li p {
+    font-size: 14px;
+}
+
+.input_text {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid $lineGrayDark;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.form_button {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 16px 12px;
+    background-color: $white;
+    box-shadow: 0px 0 6px $lineGray;
+    z-index: 100;
+}
+
+button:disabled,
+button[disabled] {
+    border: 1px solid $lineGrayDark;
+    background-color: $lineGrayDark;
+}

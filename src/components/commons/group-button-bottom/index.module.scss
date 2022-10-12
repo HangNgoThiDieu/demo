@@ -1,0 +1,22 @@
+@import "assets/styles/color";
+
+.form_button {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  padding: 16px 12px;
+  background-color: $white;
+  box-shadow: 0px 0 6px $lineGray;
+  z-index: 98;
+}
+
+.btn {
+  padding: 12px;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid $lineGrayDark;
+  background-color: $lineGrayDark;
+}

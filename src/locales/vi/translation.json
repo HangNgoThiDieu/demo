@@ -1,0 +1,925 @@
+{
+  "lang": "vi",
+  "webTitle": "TOS",
+  "datetimeFormatStringHM": "DD/MM/YYYY HH:mm",
+  "dateFormatString": "DD/MM/YYYY",
+  "dateFormat": "dd/MM/yyyy",
+  "datePlaceHolder": "dd/mm/yyyy",
+  "dateTimeFormat": "dd/MM/yyyy p",
+  "dateFormatPicker": "dd/MM/yyyy",
+  "yearMonthFormatString": "MM/YYYY",
+  "yearFormatString": "YYYY",
+  "yearMonthFormatPicker": "MM/yyyy",
+  "yearFormatPicker": "yyyy",
+  "timeInputLabel": "Thời gian",
+  "dateFormatStringSlash": "DD/MM/yyyy",
+  "dateTimeFormatStringSlash" : "dd/MM/yyyy HH:mm",
+  "login": {
+    "title": "Đăng nhập",
+    "labelUsername": "Email",
+    "labelPassword": "Mật khẩu",
+    "forgotPassword": "Quên mật khẩu",
+    "buttonLogin": "Đăng nhập",
+    "placeholderEmail": "Địa chỉ Email",
+    "placeholderPassword": "・・・・・・",
+    "invalidUsernameOrPassword": "Tên tài khoản hoặc mật khẩu không chính xác",
+    "accountHasBeenLock": "Tài khoản bị khóa",
+    "accountDisabled": "Tài khoản này đã bị vô hiệu hóa nên không thể login được nữa",
+    "accountLock": "Bạn đã đăng nhập sai quá 5 lần. Vui lòng đợi sau 5 phút để đăng nhập lại",
+    "companyStop": "Cửa hàng này đã ngưng sử dụng nên không thể login được nữa.",
+    "unauthorized": "Tài khoản này không có quyền truy cập",
+    "accountSuspended": "Tài khoản của bạn đã bị vô hiệu hóa nên không thể tiếp tục sử dụng hệ thống, vui lòng liên hệ với người quản lý.",
+    "companySuspended": "Cửa hàng này đã bị ngưng sử dụng nên không thể tiếp tục sử dụng hệ thống, vui lòng liên hệ với người quản lý."
+  },
+  "logout": {
+    "logout" : "Đăng xuất",
+    "confirm" : {
+      "title" : "Bạn muốn đăng xuất khỏi hệ thống?"
+    }
+  },
+  "account": {
+    "title": "Danh sách tài khoản",
+    "titleSearch": "Tên user",
+    "titleRole": "Quyền hạn",
+    "titleStatus": "Trạng thái",
+    "buttonAddAccount": "Thêm mới tài khoản",
+    "buttonSearch": "Tìm kiếm",
+    "storeManager": "Quản lý cửa hàng",
+    "staff": "Nhân viên",
+    "username": "Tên tài khoản",
+    "fullName": "Tên tài khoản",
+    "emailAddress": "Email",
+    "accountLabel": "Tài khoản",
+    "placeholderEmail": "Địa chỉ email",
+    "placeholderName": "Ví dụ: Nguyễn Văn A",
+
+    "detail": {
+      "titleDetailAccount": "Chi tiết tài khoản",
+      "buttonChangePassword": "Đổi mật khẩu",
+      "buttonEditAccount": "Chỉnh sửa tài khoản",
+      "accountUser": "Tình trạng tài khoản"
+    },
+    "edit": {
+      "title": "Thông tin tài khoản",
+      "titleModal": "Cập nhật thông tin tài khoản",
+      "titleSubModal": "Bạn có chắc chắn không?",
+      "updateAccount": "Lưu",
+      "buttonUpdate": "Cập nhật",
+      "editSuccess": "Cập nhật tài khoản thành công"
+    },
+    "add": {
+      "title": "Thêm mới tài khoản",
+      "titleModal": "Thêm tài khoản",
+      "titleSubModal": "Vui lòng nhấn nút [Lưu] để lưu thông tin",
+      "addAccount": "Lưu",
+      "buttonAdd": "Thêm",
+      "addSuccess": "Thêm mới tài khoản thành công."
+    },
+    "delete": {
+      "title": "Xóa tài khoản",
+      "confirmText": "Bạn thực sự muốn xóa tài khoản {{name}}?",
+      "successMessage": "Xóa tài khoản {{name}} thành công.",
+      "modal": {
+        "btnDelete": "Xóa"
+      },
+      "errors": {
+        "notDelete": "Xóa tài khoản bị lỗi."
+      }
+    },
+    "valid": "Hoạt động",
+    "invalid": "Vô hiệu hóa"
+  },
+  "product": {
+    "title": "Quản lý sản phẩm",
+    "buttonAddProduct": "Thêm sản phẩm",
+    "add": {
+      "title": "Thêm sản phẩm",
+      "buttonAdd": "Đăng ký",
+      "titleSuccess": "Đăng ký sản phẩm",
+      "success": "Thêm mới sản phẩm {{field}} thành công",
+      "failure": "Thêm mới sản phẩm bị lỗi. Vui lòng thử lại.",
+      "confirm": {
+        "title": "Thêm mới sản phẩm",
+        "buttonAdd": "Đăng ký sản phẩm"
+      }
+    },
+    "edit": {
+      "title": "Cập nhật sản phẩm",
+      "buttonUpdate": "Cập nhật",
+      "confirm": {
+        "title": "Cập nhật sản phẩm",
+        "buttonEdit": "Lưu",
+        "notifySuccess": "Cập nhật thông tin sản phẩm thành công",
+        "titleSuccess": "Cập nhật thông tin sản phẩm"
+      }
+    },
+    "detail": {
+      "title": "Thông tin sản phẩm",
+      "buttonSaleInfo": "Doanh thu sản phẩm",
+      "buttonEditProduct": "Chỉnh sửa sản phẩm",
+      "multipleSelect": "Được chọn nhiều",
+      "soldOut": "Hết hàng",
+      "onSale": "Đang bán",
+      "menuRelease": "Công khai lên thực đơn",
+      "allowed": "Có thể",
+      "notAllowed": "Không thể",
+      "release": "Công khai",
+      "private": "Không công khai"
+    },
+    "modalAddCategory": {
+      "title": "Thêm danh mục",
+      "buttonAdd": "Thêm",
+      "success": "Thêm mới danh mục thành công",
+      "placeholder": "Tên danh mục",
+      "categoryLabel": "Tên danh mục"
+    },
+    "delete": {
+      "title": "Xóa sản phẩm",
+      "confirmText": "Bạn thực sự muốn xóa sản phẩm {{name}}?",
+      "successMessage": "Xóa sản phẩm {{name}} thành công.",
+      "modal": {
+        "btnDelete": "Xóa"
+    }
+   
+    },
+    "revenue": {
+      "title": "Thông tin doanh thu sản phẩm",
+      "rankingMonth": "Xếp hạng doanh thu tháng này",
+      "categoryRankingMonth": "Xếp hạng danh mục trong tháng này",
+      "numberOfOrder": "Số lượng đặt",
+      "totalSales": "Doanh thu tháng này",
+      "salesContribution": "Tỷ lệ doanh thu",
+      "thisMonth": "Tháng này",
+      "thisWeek": "Tuần này",
+      "thisDay": "Trong ngày",
+      "times": "lần"
+    },
+    "category": "Danh mục",
+    "productName": "Tên sản phẩm",
+    "placeholderProductName": "Ví dụ: Cơm cuộn",
+    "description": "Mô tả sản phẩm",
+    "placeholderdescription": "Vui lòng nhập mô tả sản phẩm",
+    "productImage": "Hình ảnh sản phẩm",
+    "price": "Giá",
+    "tax": "（VAT）",
+    "addCategory": "Thêm danh mục",
+    "multipleSelect": "Không được chọn nhiều",
+    "notMultiple": "Không được chọn nhiều",
+    "soldOut": "Hết hàng",
+    "onSale": "Đang bán",
+    "menuRelease": "Công khai lên thực đơn",
+    "productDiscount": "Giảm giá",
+    "couponCurrency": "Số tiền giảm giá",
+    "couponPercent": "Tỷ lệ giảm giá",
+    "noOption": "Không có tùy chọn",
+    "noteSubImages": "※Chỉ được chọn tối đa 9 hình ảnh",
+    "error": {
+      "duplicateCategoryName": "Tên danh mục bị trùng",
+      "duplicateProductName": "Tên sản phẩm bị trùng",
+      "maxFileSize": "Không thể đăng tải ảnh quá [5MB]",
+      "maxNumber": "Chỉ được chọn tối đa 9 hình ảnh",
+      "couponCurrencyRequired": "Bắt buộc nhập số tiền giảm giá",
+      "couponPercentRequired": "Bắt buộc nhập phần trăm giảm giá",
+      "greaterThanPrice": "Số tiền giảm giá lớn hơn giá thành sản phẩm",
+      "greaterThan100Percent": "Phần trăm giảm giá không được lớn hơn 100％",
+      "overPrice": "Khoản tiền khấu trừ của tùy chọn lớn hơn giá sản phẩm",
+      "uploadFailure": "Có lỗi xảy ra trong quá trình tải ảnh lên"
+    },
+    "allowed": "Cho phép",
+    "notAllowed": "Không cho phép",
+    "release": "Công khai",
+    "private": "Không công khai",
+    "settingOptionalTitle": "Tùy chọn",
+    "settingOptional": {
+      "addGroupOptionButton": "Thêm tùy chọn",
+      "removeOptionButton": "Xóa tùy chọn",
+      "addOptionButton": "Thêm lựa chọn",
+      "groups": {
+        "groupNameTitle": "Vui lòng nhập tên tùy chọn",
+        "isRequiredTitle": "Vui lòng chọn loại lựa chọn",
+        "optionTypeTitle": "Vui lòng chỉ định phương thức cho phép chọn một hoặc chọn nhiều",
+        "optionTitle": "Vui lòng điền nội dung lựa chọn",
+        "required": "Bắt buộc",
+        "optional": "Không bắt buộc",
+        "radioType": "Chỉ chọn một",
+        "checkboxType": "Có thể chọn nhiều",
+        "groupOptionName": "Tên tùy chọn",
+        "placeholderGroupOptionName": "Vui lòng nhập tên tùy chọn",
+        "optionItem": {
+          "optionName": "Tên lựa chọn",
+          "optionAmount": "Số tiền"
+        }
+      }
+    },
+    "optionTitle": "Tùy chọn"
+  },
+  "table": {
+    "detail": {
+      "title": "Thông tin chi tiết bàn",
+      "issue": "Phát hành",
+      "issuePrint": "Phát hành và in"
+    },
+    "timeIn": "Giờ vào",
+    "timeOut": "Giờ ra",
+    "realeaseDate": "Ngày phát hành",
+    "addOrder": "Đặt hàng",
+    "payment": "Thanh toán",
+    "numberOfTable": "Số lượng bàn",
+    "title": "Danh sách bàn"
+  },
+  "modalQrCode": {
+    "title": "In mã QR",
+    "tableName": "Tên bàn",
+    "transactionId": "ID giao dịch"
+  },
+  "menu": {
+    "setting": "Cài đặt",
+    "restaurantSetting": "Cài đặt cửa hàng",
+    "designSetting": "Cài đặt giao diện",
+    "tableSetting": "Cài đặt bàn",
+    "seatSetting": "Cài đặt chỗ ngồi",
+    "paymentSetting": "Cài đặt thanh toán",
+    "management": "Quản lý",
+    "staffManagement": "Quản lý nhân viên",
+    "salesAnalysis": "Phân tích doanh thu",
+    "productManagement": "Quản lý sản phẩm",
+    "tableList": "Danh sách bàn",
+    "orderList": "Danh sách đặt hàng",
+    "notificationUserList": "Danh sách thông báo"
+  },
+  "order": {
+    "list": {
+      "title": "Danh sách đặt hàng",
+      "tabStatus": {
+        "all": "Tất cả",
+        "cancel": "Hủy",
+        "finished": "Hoàn thành",
+        "unfinished": "Chưa hoàn thành"
+      },
+      "orderTime": "Thời gian gọi món",
+      "button": {
+        "cancelled": "Hủy",
+        "finished": "Hoàn thành"
+      },
+      "cancelledMessage": "Hủy đặt hàng thành công.",
+      "finishedMessage": "Đã hoàn thành đặt hàng.",
+      "confirmFinished": {
+        "title": "Hoàn thành đặt hàng",
+        "subTitle": "Bạn có chắc chắn muốn hoàn thành đơn hàng?",
+        "textButton": "Hoàn thành"
+      },
+      "confirmCancelled": {
+        "title": "Hủy đặt hàng",
+        "subTitle": "Bạn có chắc chắn muốn hủy đặt hàng?",
+        "textButton": "Hủy đặt hàng"
+      }
+    },
+    "add": {},
+    "selectProduct": {
+      "title": "Lựa chọn sản phẩm",
+      "historyOrder": "Lịch sử order",
+      "checkCart": "Xem giỏ hàng",
+      "timeIn": "Giờ vào",
+      "soldOut": "Hết hàng",
+      "meal": "Số lượng",
+      "titleTransactionId": "ID phiên giao dịch"
+    },
+    "product": {
+      "detail": {
+        "title": "【Đặt hàng】Thông tin sản phẩm",
+        "optionTitle": "Thêm lựa chọn",
+        "vat": "（VAT）",
+        "options": {
+          "requiredOpt": {
+            "title": "Vui lòng chọn số lượng",
+            "required": "Bắt buộc",
+            "chooseMore": "Bạn có thể chọn nhiều lựa chọn"
+          }
+        },
+        "button": {
+          "addCart": "Thêm vào giỏ"
+        },
+        "seats": {
+          "title": "Vui lòng chọn ghế",
+          "confirmSeat": "Xác nhận chọn ghế",
+          "undefined": "Không chọn ghế",
+          "titleUser": "Vui lòng chọn ghế"
+        },
+        "modal":{
+          "message": "Sản phẩm này không được chọn số lượng nhiều hơn 1."
+        }
+      }
+    },
+    "cart": {
+      "title": "【Đặt hàng】Giỏ hàng",
+      "seatUndefined" : "Không chỉ định ghế",
+      "notify": {
+        "resetCartTitle": "Xóa sản phẩm",
+        "resetCartMessage": "Tất cả các sản phẩm trong giỏ hàng đã được xóa."
+      },
+      "cartEmpty": "Giỏ hàng trống",
+      "label": {
+        "transactionId": "ID giao dịch",
+        "transactionStartTime": "Giờ vào"
+      },
+      "modal": {
+        "titleReset": "Bạn có muốn xóa tất cả mặt hàng trong giỏ?",
+        "subTitleReset": "Tất cả các mặt hàng trong giỏ hàng sẽ bị xóa",
+        "titleRemove": "Bạn có chắc chắn xóa sản phẩm này?",
+        "subTitleRemove": "",
+        "button": {
+          "reset": "Xóa",
+          "remove": "Xóa"
+        },
+        "titleLeave": "Bạn muốn thoát khỏi giỏ hàng?",
+        "subTitleLeave": "Nếu bạn thoát khỏi giỏ hàng thì tất cả các mặt hàng sẽ bị mất cùng với giỏ hàng. Bạn chắc chắn muốn thoát?"
+      },
+      "button": {
+        "resetAll": "Xóa tất cả",
+        "productList": "Thêm món",
+        "confirmOrder": "Xác nhận"
+      }
+    },
+    "confirmOrder": {
+      "title": "Xác nhận đơn hàng",
+      "subTitle": "Xác nhận đơn hàng với những nội dung sau:",
+      "transactionId": "ID giao dịch",
+      "option": "Tùy chọn"
+    }
+  },
+  "storeSetting": {
+    "title": "Cài đặt cửa hàng",
+    "storeName": "Tên cửa hàng",
+    "languageAndCurrency": "Ngôn ngữ và tiền tệ",
+    "building": "tòa nhà",
+    "noticeToStaff": "Thông báo cho nhân viên",
+    "editStore": "Chỉnh sửa thông tin",
+    "titleNotify": "Thông báo cho nhân viên",
+    "design": {
+      "title": "Cài đặt giao diện",
+      "labelImage": "Logo công ty",
+      "labelColors": "Màu",
+      "mainColor": "Màu chính",
+      "subColor": "Màu phụ",
+      "attentionColor": "Màu nhấn",
+      "textColor": "Màu chữ",
+      "btnSetting": "Xem lại giao diện",
+      "errors": {
+        "maxFileSize": "Không thể tải hình ảnh lớn hơn [5MB]"
+      },
+      "colorPalettes": {
+        "title": "Vui lòng chọn màu",
+        "save": "Lưu"
+      }
+    },
+    "designPreview": {
+      "title": "Xem lại giao diện",
+      "buttonSetting" : "Lưu",
+      "topUser" : {
+        "header" : "Tên cửa hàng",
+        "attention" : "【Sắp hết hạn】",
+        "notification" : "Quốc khánh 2/9 ...",
+        "buttonOrderHistory" : "Lịch sử đơn hàng",
+        "buttonBill": "Thanh toán",
+        "buttonOrderItem": "Thêm món"
+      },
+      "product" : {
+        "category1": "Thức ăn",
+        "category2": "Set menu",
+        "category3": "Nước uống",
+        "category4": "Tráng miệng",
+        "category5": "Đồ lưu niệm",
+        "productName": "Cơm trứng",
+        "description": "Mô tả sản phẩm",
+        "price": "1,000"
+      },
+      "top" : {
+        "notification": "27/08/2021 Đã bắt đầu dịch vụ"
+      },
+      "table": "Bàn 1",
+      "transaction": "ID giao dịch: T1234",
+      "timeIn": "Giờ vào: 28/06/2022 19:55",
+      "settingDesignSuccess": "Cài đặt giao diện thành công."
+    },
+    "edit": {
+      "title": "Chỉnh sửa thông tin cửa hàng",
+      "buttonEdit": "Lưu",
+      "storeName": "Tên cửa hàng",
+      "address": "Địa chỉ",
+      "phoneNumber": "Số điện thoại",
+      "email": "Email",
+      "language": "Ngôn ngữ",
+      "currency": "Tiền tệ",
+      "workingTime": "Thời gian làm việc",
+      "startTime": "Thời gian bắt đầu",
+      "endTime": "Thời gian kết thúc",
+      "status": "Trạng thái",
+      "messageSuccess": "Lưu thông tin cửa hàng thành công.",
+      "validation": {
+        "endTimeGreaterThanStartTime": "Thời gian kết thúc lớn hơn thời gian bắt đầu."
+      },
+      "phoneNumberPlaceholder":"Ví dụ: (+84) 999-999-999"
+    },
+    "payment":{
+      "title": "Thiết lập thanh toán",
+      "buttonSetting": "Thiết lập",
+      "usePayment": "Sử dụng chức năng thanh toán online",
+      "success": "Cài đặt thanh toán thành công.",
+      "paymentGateway": "Thiết lập các cổng thanh toán",
+      "errors": {
+        "chooseAtLeast": "Vui lòng chọn ít nhất một hình thức thanh toán"
+      }
+    },
+    "seat": {
+      "title": "Cài đặt ghế ngồi",
+      "setSeat": "Sử dụng chức năng có ghế ngồi",
+      "setting": "Lưu",
+      "settingSeatSuccess": "Cài đặt chức năng có ghế ngồi thành công."
+    }
+  },
+  "notify": {
+    "buttonAddNotify": "Thêm thông báo mới"
+  },
+  "tableSetting": {
+    "title": "Cài đặt bàn",
+    "delete": {
+      "titleModalDelete": "Xóa bàn",
+      "subTitleModalDelete": "Bạn có muốn xóa bàn {{name}}?",
+      "deleteSuccess": "Đã xóa bàn {{name}} thành công",
+      "buttonModalDelete": "Xóa",
+      "notifySuccess": "Bàn {{name}} đã được xóa",
+      "isUsing": "Vì bàn này đang được sử dụng, không thể xóa."
+    },
+    "add": {
+      "buttonAdd": "Thêm bàn - ghế",
+      "buttonAddChair": "Thêm ghế",
+      "titleAdd": "Đăng ký bàn/ghế mới",
+      "buttonAddTable": "Đăng ký",
+      "notifySuccess": "Thêm mới bàn {{name}} thành công."
+    },
+    "edit": {
+      "titleEdit": "Chỉnh sửa bàn - ghế",
+      "buttonEdit": "Cập nhật",
+      "notifySuccess": "Chỉnh sửa bàn {{name}} thành công."
+    },
+    "tableName": "Tên bàn",
+    "chairName": "Tên ghế",
+    "placeHolderName": "Bàn số 1",
+    "error": {
+      "duplicateTableName": "Tên bàn bị trùng.",
+      "tableNotFound": "Không tìm thấy bàn",
+      "invalidTableName": "Tên bàn không đúng định dạng",
+      "duplicatedSeatName": "Tên ghế bị trùng."
+    }
+  },
+  "transaction": {
+    "detail": {
+      "title": "Thông tin phiên làm việc",
+      "titleRight": "In mã QR",
+      "buttonAccounting": "Thanh toán",
+      "buttonAddOrder": "Thêm đặt hàng",
+      "tax": "（VAT）",
+      "total": "Tổng",
+      "timeIn": "Giờ vào",
+      "timeOut": "Giờ ra",
+      "transactionId": "ID giao dịch",
+      "orderList": "Danh sách đặt hàng",
+      "orderId": "Mã đơn hàng",
+      "seat": "Ghế 1",
+      "complete": "Hoàn thành",
+      "inComplete": "Chưa hoàn thành",
+      "cancel": "Hủy",
+      "optionTitle": "Tùy chọn"
+    },
+    "cashierPayment": {
+      "title": "Thanh toán tại quầy",
+      "transactionID": "ID giao dịch",
+      "orderId": "Mã đơn hàng",
+      "taxInclude": "VAT",
+      "subTotal": "Tổng",
+      "total": "Tổng phải trả",
+      "paymentCompleted": "Hoàn thành thanh toán",
+      "timeIn": "Giờ vào",
+      "option": "Tùy chọn",
+      "titlePaymentCompleted": "Hoàn thành thanh toán",
+      "contentNotify": "Thanh toán thành công cho bàn {{name}}",
+      "titleNotPayment": "Đã có lỗi xảy ra không thanh toán được.",
+      "confirmNotPayemnt": "Vui lòng hoàn thành hoặc hủy đơn hàng trước khi thanh toán.",
+      "buttonCancel": "Hủy thanh toán",
+      "confirmNotPayemntWhenCart": "Do vẫn còn đơn hàng chưa được xác nhận nên không thể thanh toán",
+      "confirmEnd": {
+        "title": "Xác nhận kết thúc",
+        "textConfirm": "Đơn đặt món của bạn đang rỗng, bạn có muốn kết thúc tại đây?"
+      }
+    }
+  },
+  "revenue": {
+    "title": "Phân tích doanh thu",
+    "buttonLeft":"Bảng phân tích",
+    "buttonRight": "Đồ thị phân tích",
+    "graphDateTitle": "Biểu đồ doanh thu theo ngày",
+    "graphMonthTitle": "Biểu đồ doanh thu theo tháng",
+    "graphTodayTitle": "Biều đồ doanh thu hôm nay",
+    "revenueLabel": "Doanh thu", 
+    "labelOfGraph": "Doanh thu (1.000)",
+    "monthSuffix": "Tháng",
+    "dayOfWeek": {
+      "suffix": "",
+      "sunday": "CN",
+      "saturday": "T7",
+      "monday": "T2",
+      "tuesday": "T3",
+      "wednesday": "T4",
+      "thursday": "T5",
+      "friday": "T6"
+    },
+    "monthOfYear":{
+      "jan": "T1",
+      "feb": "T2",
+      "mar": "T3",
+      "apr": "T4",
+      "may": "T5",
+      "jun": "T6",
+      "jul": "T7",
+      "aug": "T8",
+      "sep": "T9",
+      "oct": "T10",
+      "nov": "T11",
+      "dec": "T12"
+    },
+    "paymentMethod":{
+      "cash": "Tiền mặt",
+      "transfer": "Chuyển khoản"
+    },
+    "graphAnalysis": {
+      "title": "Đồ thị phân tích",
+      "tabProduct": "Theo sản phẩm",
+      "tabCategory": "Theo danh mục",
+      "period": "Thời gian",
+      "comparison": "So sánh",
+      "compareWith": "Thời gian so sánh",
+      "clear": "Làm lại",
+      "apply": "Áp dụng",
+      "graph": "Đồ thị",
+      "noData": "Không có dữ liệu trong khoảng thời gian đã chọn."
+    },
+    "tableAnalysis": {
+      "title": "Bảng phân tích",
+      "tabProduct": "Theo sản phẩm",
+      "tabCategory": "Theo danh mục",
+      "period": "Thời gian",
+      "comparison": "So sánh",
+      "compareWith": "Thời gian so sánh",
+      "clear": "Làm lại",
+      "apply": "Áp dụng",
+      "table": "Bảng",
+      "noData": "Không có dữ liệu trong khoảng thời gian đã chọn.",
+      "index": "STT",
+      "nameCategory": "Tên danh mục",
+      "nameProduct":"Tên sản phẩm",
+      "sales": "Doanh thu",
+      "amountIncreaseOrDecrease": "Tăng giảm",
+      "growthRate": "Tỷ lệ tăng trưởng",
+      "exportCSV": "Xuất CSV",
+      "compare": " So sánh "
+    }
+  },
+  "errorPage": {
+    "500": {
+      "title": "Lỗi Server",
+      "subTitle": "Trang web này không hoạt động được.",
+      "content": "Vui lòng đợi một lúc và tải lại.",
+      "error": "500"
+    },
+    "404": {
+      "title": "Không tìm thấy trang",
+      "subTitle": "Không tìm thấy trang bạn yêu cầu.",
+      "content": "Bạn có chắc chắn nhập đúng địa chỉ trang web?",
+      "error": "404"
+    },
+    "403": {
+      "title": "Không có quyền",
+      "subTitle": "Bạn không có quyền truy cập.",
+      "content": "Vui lòng kiểm tra quyền truy cập với quản trị viên.",
+      "error": "403"
+    }
+  },
+  "top": {
+    "header" : "Thông báo",
+    "buttonLeft": "Danh sách đơn hàng",
+    "buttonRight": "Danh sách bàn",
+    "noNotification": "Không có thông báo"
+  },
+  "password": {
+    "resetPassword": {
+      "title": "Đặt lại mật khẩu",
+      "titleSetPW": "Đăng ký mật khẩu mới",
+      "email": "Tên tài khoản",
+      "newPassword": "Mật khẩu mới",
+      "confirmNewPassword": "Xác nhận mật khẩu mới",
+      "save": "Đăng ký",
+      "successTitle": "Đăng ký mật khẩu mới",
+      "successTitleSetPW": "Đăng ký mật khẩu mới",
+      "success": "Đăng ký thành công.",
+      "successSetPW": "Đăng ký thành công.",
+      "setPWFailure": "Đăng ký mật khẩu thất bại.",
+      "failure": "Đặt lại mật khẩu thất bại",
+      "validation": {
+        "invalidPassword": "Mật khẩu phải có ít nhất một chữ cái thường, chữ cái hoa, số và ký tự đặc biệt (không bao gồm ký tự ￥).",
+        "maxMinLenght": "{{field}} có độ dài trong khoảng từ {{min}} đến {{max}} ký tự",
+        "notMatchPassword": "Xác nhận mật khẩu mới không khớp với mật khẩu mới.",
+        "emailNotFound": "Email này chưa được đăng ký.",
+        "urlResetPWIsInvalid": "Liên kết đặt lại mật khẩu không còn hợp lệ",
+        "urlSetPWIsInvalid": "Liên kết đăng ký mật khẩu không còn hợp lệ",
+        "userInvalid": "Tài khoản của bạn đã bị khóa"
+      }
+    },
+    "forgotPassword": {
+      "title": "Đặt lại mật khẩu",
+      "email": "Email",
+      "btnForgot": "Đặt lại",
+      "modal": {
+        "title": "Đặt lại mật khẩu",
+        "subTitle": "Bạn thực sự muốn đặt lại mật khẩu?",
+        "email": "Email",
+        "btnForgot": "Đặt lại"
+      },
+      "successTitle": "Gửi email xác nhận",
+      "success": "Hệ thống đã gửi email xác nhận đặt lại mật khẩu",
+      "validation": {
+        "emailNotFound": "Email này chưa được đăng ký.",
+        "userInvalid": "Tài khoản của bạn đã bị khóa"
+      }
+    }, 
+    "changePassword": {
+      "title": "Thay đổi mật khẩu",
+      "email": "Email",
+      "fullName": "Tên tài khoản",
+      "currentPassword": "Mật khẩu hiện tại",
+      "newPassword": "Mật khẩu mới",
+      "confirmNewPassword": "Xác nhận mật khẩu mới",
+      "buttonChange": "Thay đổi",
+      "validation": {
+        "invalidPassword": "Mật khẩu phải có ít nhất một chữ cái thường, chữ cái hoa, số và ký tự đặc biệt (không bao gồm ký tự ￥).",
+        "maxMinLenght": "{{field}} có độ dài trong khoảng từ {{min}} đến {{max}} ký tự",
+        "notMatchPassword": "Xác nhận mật khẩu mới không khớp với mật khẩu mới.",
+        "userNotFound": "Tên tài khoản này chưa được đăng ký",
+        "passwordNotCorrect" : "Mật khẩu hiện tại không đúng"
+      },
+      "successTitle": "Thay đổi mật khẩu thành công!",
+      "failure": "Thay đổi mật khẩu thất bại."
+    }
+  },
+  "notification": {
+    "edit": {
+      "titleModal": "Thông tin thông báo",
+      "buttonEdit": "Cập nhật",
+      "notifySuccess": "Cập nhật thông báo thành công"
+    },
+    "add": {
+      "titleModal": "Thêm thông báo mới",
+      "buttonAdd": "Thêm mới",
+      "notifySuccess": "Thêm thông báo mới thành công"
+    },
+    "title": "Chủ đề thông báo",
+    "content": "Nội dung thông báo",
+    "startDate": "Ngày bắt đầu",
+    "endDate": "Ngày kết thúc",
+    "placeholderDate": "yyyy/mm/dd h：i：s",
+    "public": "Công khai",
+    "private": "Không công khai"
+  },
+  "notificationUser": {
+    "title": "Quản lý thông báo",
+    "btnAdd": "Tạo thông báo mới",
+    "errors": {
+      "errorMessage": "Không thể lấy được dữ liệu thông báo"
+    },
+    "delete": {
+      "title": "Xóa thông báo",
+      "confirmText": "Bạn có chắc muốn xóa thông báo này không?",
+      "btnDelete": "Xóa",
+      "successMessage": "Xóa thông báo thành công",
+      "deleteFailure": "Xóa thông báo thất bại"
+    },
+    "add": {
+      "title": "Tạo thông báo",
+      "notificationTitle": "Tiêu đề",
+      "placeholderTitle": "Nhập tiêu đề thông báo",
+      "label": "Nhãn",
+      "placeholderLabel": "Ví dụ: ưu đãi có thời hạn",
+      "startDate": "Bắt đầu hiển thị",
+      "placeholderDate": "dd/mm/yyyy",
+      "endDate": "Kết thúc hiển thị",
+      "content": "Nội dung",
+      "placeholderContent": "Nhập thông tin chi tiết",
+      "image": "Hình ảnh",
+      "btnAdd": "Đăng ký",
+      "successMessage": "Thêm thông báo mới thành công",
+      "failure": "Thêm thông báo mới thất bại"
+    },
+    "edit": {
+      "title": "Chỉnh sửa chi tiết thông báo",
+      "notificationTitle": "Tiêu đề",
+      "placeholderTitle": "Nhập tiêu đề thông báo",
+      "label": "Nhãn",
+      "placeholderLabel": "Ví dụ: ưu đãi có thời hạn",
+      "startDate": "Bắt đầu hiển thị",
+      "placeholderDate": "dd/mm/yyyy",
+      "endDate": "Kết thúc hiển thị",
+      "content": "Nội dung",
+      "placeholderContent": "Nhập thông tin chi tiết",
+      "image": "Hình ảnh",
+      "btnEdit": "Lưu",
+      "successMessage": "Chỉnh sửa thông báo thành công",
+      "failure": "Chỉnh sửa thông báo thất bại"
+    }
+  },
+  "user": {
+    "top": {
+      "transaction": {
+        "transactionId": "ID giao dịch",
+        "startDate": "Giờ vào",
+        "endDate": "Giờ ra",
+        "errors": {
+          "expriedTransaction": "Mã QR này đã hết hạn",
+          "errorMessage": "Không thể đọc được mã QR này"
+        }
+      },
+      "modal": {
+        "title": "Thông tin mã QR",
+        "tableName": "Tên bàn",
+        "transactionID": "ID giao dịch",
+        "startDate": "Giờ vào",
+        "endDate": "Giờ ra",
+        "totalPayment": "Tổng tiền thanh toán",
+        "status": "Trạng thái thanh toán",
+        "complete": "Hoàn thành thanh toán"
+      },
+      "button": {
+        "orderHistory": "Lịch sử đơn hàng",
+        "payment": "Thanh toán",
+        "order": "Đặt hàng"
+      }
+    },
+    "notification": {
+      "detail":{
+        "title": "Thông báo",
+        "order": "Đặt hàng"
+      }
+    },
+    "orderHistory": {
+      "title": "Lịch sử đơn hàng",
+      "timeIn": "Giờ vào",
+      "timeOut": "Giờ ra",
+      "transactionId": "ID giao dịch",
+      "complete": "Hoàn thành",
+      "inComplete": "Chưa hoàn thành",
+      "cancel": "Hủy",
+      "optionTitle": "Tùy chọn",
+      "seatUndefined" : "Không chọn ghế",
+      "orderHistoryBtn": "Lịch sử đơn hàng"
+    },
+    "payment" : {
+      "momo": {
+        "titleSuccess": "Thanh toán thành công",
+        "titleFailed": "Thanh toán thất bại",
+        "thanks": "Cảm ơn",
+        "quantity": "Số lượng: ",
+        "totalAmount": "Tổng tiền: ",
+        "paymentMethod": "Phương thức thanh toán: MoMo",
+        "paymentDate": "Ngày thanh toán: ",
+        "succeeded": "Bạn đã thanh toán thành công cho đơn hàng. ",
+        "failed": "Đã có lỗi trong quá trình thanh toán",
+        "paymentAgain": "Vui lòng thanh toán lại.",
+        "orderInfor": "Thông tin đặt hàng",
+        "paymentCode": "Mã thanh toán",
+        "amount": "Tổng tiền",
+        "content": "Nội dung",
+        "tryAgain": "Thanh toán lại"
+      },
+      "onePay": {
+        "titleSuccess": "Thanh toán thành công",
+        "titleFailed": "Thanh toán thất bại",
+        "thanks": "Cảm ơn",
+        "quantity": "Số lượng: ",
+        "totalAmount": "Tổng tiền: ",
+        "paymentMethod": "Phương thức thanh toán: OnePay",
+        "paymentDate": "Ngày thanh toán: ",
+        "succeeded": "Bạn đã thanh toán thành công cho đơn hàng. ",
+        "failed": "Đã có lỗi trong quá trình thanh toán",
+        "paymentAgain": "Vui lòng thanh toán lại.",
+        "orderInfor": "Thông tin đặt hàng",
+        "paymentCode": "Mã thanh toán",
+        "amount": "Tổng tiền",
+        "content": "Nội dung",
+        "tryAgain": "Thanh toán lại"
+      }
+    },
+    "paymentDetail": {
+      "title": "Nội dung thanh toán",
+      "transactionId": "ID giao dịch",
+      "timeIn": "Giờ vào",
+      "btnPayment": "Thanh toán ",
+      "seatUndefined": "Không chỉ định",
+      "errors": {
+        "paymentDetailFailure": "Có lỗi xảy ra khi hiển thị chi tiết thanh toán",
+        "paymentMethodsFailure": "Có lỗi xảy ra khi hiển thị các hình thức thanh toán",
+        "moMoNotSupportPayment": "MoMo không hỗ trợ thanh toán loại tiền tệ này",
+        "minimumAmount": "Vui lòng thanh toán số tiền lớn hơn hoặc bằng 1.000 VND"
+      },
+      "seatOrder": {
+        "options": "Tùy chọn",
+        "total": "Tổng"
+      },
+      "paymentMethods": {
+        "title": "Phương thức thanh toán",
+        "subTitle": "Vui lòng chọn phương thức thanh toán",
+        "required": "Bắt buộc"
+      },
+      "paymentTotal": {
+        "quantity": "Số lượng",
+        "total": "Tổng phải trả"
+      },
+      "modal": {
+        "title": "Thanh toán tiền mặt",
+        "subTitle": "Cảm ơn bạn đã sử dụng",
+        "moreSubTitle": "Vui lòng thanh toán tại quầy",
+        "tableName": "Tên bàn",
+        "transactionID": "ID giao dịch",
+        "timeIn": "Giờ vào",
+        "timeOut": "Giờ ra",
+        "quantityProduct": "Số lượng",
+        "product": "Sản phẩm",
+        "products": "Sản phẩm",
+        "totalPrice": "Tổng tiền"
+      }
+    }
+  },
+  "all": "Tất cả",
+  "beforeOrdering": "Trước order",
+  "seated": "Đang ngồi",
+  "completed": "Hoàn thành",
+  "ok": "OK",
+  "next": "Tiếp",
+  "cancel": "Hủy",
+  "close": "Đóng",
+  "delete": "Xóa",
+  "price": "Giá",
+  "tax": "(VAT)",
+  "unitPrice": "{{unitPrice}}",
+  "confirm": "Xác nhận",
+  "total": "Tổng",
+  "transactionName": "T",
+  "accountManagement": "Quản lý tài khoản",
+  "analysisManagement": "Phân tích doanh thu",
+  "productManagement": "Quản lý sản phẩm",
+  "japanese": "Japanese",
+  "english": "English",
+  "vietnamese": "Vietnamese",
+  "korean": "Korean",
+  "monday": "T2",
+  "tuesday": "T3",
+  "wednesday": "T4",
+  "thursday": "T5",
+  "friday": "T6",
+  "sunday": "T7",
+  "saturday": "CN",
+  "holiday": "NN",
+  "cash": "Thanh toán tại quầy",
+  "transfer": "Chuyển khoản",
+  "onePay": "OnePay",
+  "momoPay": "MoMoPay", 
+
+  "noData": "Không có dữ liệu",
+  "loading": "Đang tải…",
+
+  "unexpectedError": "Đã xảy ra lỗi. Vui lòng thử lại.",
+  "phoneNumber": "Số điện thoại",
+  "email": "Email",
+  "address": "Địa chỉ",
+  "completedPayment": "Đã hoàn thành",
+  "categoryName": "Tên danh mục mới",
+  "returnTop": "Quay về màn hình top",
+  "validation": {
+    "required": "{{field}} bắt buộc.",
+    "length": "{{field}}có độ dài trong khoảng từ {{min}} đến {{max}} ký tự.",
+    "minLength": "{{field}} có độ dài ít nhất {{min}} ký tự.",
+    "maxLength": "{{field}} có độ dài tối đa {{max}}ký tự.",
+    "maxLengthForNumber": "Vui lòng nhập {{field}} có tối đa {{max}} chữ số.",
+    "maxLengthForEmail": "Vui lòng nhập {{field}} có tối đa {{max}}ký tự",
+    "email": "Your email address is invalid",
+    "password": "Mật khẩu phải chứa ít nhất 1 ký tự hoa, 1 ký tự thường và 1 ký tự số.",
+    "duplicateUserName": "Tên User đã tồn tại",
+    "existedEmail": "Email này đã đăng ký rồi.",
+    "invalidUsernameOrPassword": "Tên đăng nhập hoặc mật khẩu không đúng.",
+    "userLocked": "Tài khoản của bạn đã bị khóa",
+    "confirmPasswordDoesNotMatch": "Mật khẩu xác nhận không khớp với mật khẩu mới",
+    "formatEmail": "Vui lòng nhập đúng định dạng email.",
+    "errorMessage": "Đã có lỗi xảy ra. Vui lòng thử lại",
+    "inValidNumber": "Dữ liệu không hợp lệ",
+    "endDateGreaterStartDate": "Ngày kết thúc phải lớn hơn ngày bắt đầu",
+    "notAllowSpace": "Vui lòng không sử dụng dấu cách cho {{field}}",
+    "formatPhoneNumber": "Số điện thoại không đúng định dạng"
+  }
+}

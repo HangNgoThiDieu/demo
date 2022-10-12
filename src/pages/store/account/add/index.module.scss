@@ -1,0 +1,154 @@
+@import "assets/styles/_color.scss";
+.validation_message {
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  padding: 2px 10px;
+  color: $textMain;
+  display: block;
+}
+
+.input {
+  padding: 10px;
+}
+
+.form_edit_user {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.title_edit_user {
+  position: absolute;
+  height: 24px;
+  left: 155px;
+  top: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 5px;
+  text-align: center;
+}
+
+.div_content_title {
+  text-align: center;
+}
+
+.btn_back {
+  position: absolute;
+  left: 16px;
+}
+
+.content_title {
+  position: absolute;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 5px;
+  padding-top: 16px;
+}
+
+.icon_menu {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.alert_message {
+  font-size: 14px;
+  color: $attentionColor;
+  text-align: center;
+}
+
+.content_form {
+  margin: 12px 12px 0px 12px;
+}
+
+.label_title {
+  display: block;
+  font-size: 14px;
+}
+
+.mt_5 {
+  margin-top: 5px;
+}
+
+.mr_24 {
+  margin-right: 24px;
+}
+
+.mr_32 {
+  margin-right: 32px;
+}
+
+.form_input {
+  margin-bottom: 32px;
+}
+
+.input_text {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid $lineGrayDark;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.validation_message {
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  padding: 2px 0px;
+  color: $attentionColor;
+  display: block;
+}
+
+.form_button {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 16px 12px;
+  background-color: $white;
+  box-shadow: 0px 0 6px $lineGray;
+  z-index: 100;
+}
+.text_radio {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+label input[type="radio"] {
+  display: none;
+}
+
+label input[type="radio"] + *::before {
+  content: "";
+  display: inline-block;
+  vertical-align: bottom;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $lineGray;
+  background: radial-gradient(
+    $lineGray 0%,
+    $lineGray 40%,
+    transparent 50%,
+    transparent
+  );
+}
+
+label input[type="radio"]:checked + *::before {
+  background: radial-gradient(
+    $mainColor 0%,
+    $mainColor 40%,
+    transparent 50%,
+    transparent
+  );
+  border-color: $lineGray;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid $lineGrayDark;
+  background-color: $lineGrayDark;
+}

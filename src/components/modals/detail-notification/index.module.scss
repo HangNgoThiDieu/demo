@@ -1,0 +1,17 @@
+@import "assets/styles/color";
+
+.custom_overlay {
+  background: $backgroudColorModal;
+}
+
+.custom_modal {
+  max-width: 500px;
+  margin: 25px;
+  padding: 16px 12px 24px 12px;
+  width: -webkit-fill-available;
+  border-radius: 2px;
+}
+.text_content{
+  white-space: break-spaces;
+  height: 200px;
+}

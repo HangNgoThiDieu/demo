@@ -1,0 +1,929 @@
+{
+  "lang": "en",
+  "webTitle": "TOS",
+  "datetimeFormatStringHM": "MM/DD/yyyy HH:mm",
+  "dateFormatString": "MM/DD/yyyy",
+  "dateFormat": "MM/dd/yyyy",
+  "datePlaceHolder": "mm/dd/yyyy",
+  "dateTimeFormat": "MM/dd/yyyy p",
+  "dateFormatPicker": "MM/dd/yyyy",
+  "yearMonthFormatString": "MM/yyyy",
+  "yearFormatString": "YYYY",
+  "yearMonthFormatPicker": "MM/yyyy",
+  "yearFormatPicker": "yyyy",
+  "timeInputLabel": "Time",
+  "dateFormatStringSlash": "MM/DD/yyyy",
+  "dateTimeFormatStringSlash" : "MM/dd/yyyy HH:mm",
+  "login": {
+    "title": "Login",
+    "labelUsername": "User name",
+    "labelPassword": "Password",
+    "forgotPassword": "Forgot your password?",
+    "buttonLogin": "Login",
+    "placeholderEmail": "Email address",
+    "placeholderPassword": "・・・・・・",
+    "invalidUsernameOrPassword": "Invalid username or password",
+    "accountHasBeenLock": "Your account has been lock",
+    "accountDisabled": "You can not login because your account has been disabled.",
+    "accountLock": "I failed to log in more than 5 times. Please try again in 5 minutes.",
+    "companyStop": "You can not login because this store has been suspended.",
+    "unauthorized": "Your account doesn't have permission to access",
+    "accountSuspended": "You can not continue to use the system because your account has been disabled. Please contact the administrator.",
+    "companySuspended": "You can not continue to use the system because  this store has been suspended. Please contact the administrator."
+  },
+  "logout": {
+    "logout" : "Logout",
+    "confirm" : {
+      "title" : "Do you want to logout, are you sure?"
+    }
+  },
+  "account": {
+    "title": "Account management",
+    "titleSearch": "User name",
+    "titleRole": "Role",
+    "titleStatus": "Status",
+    "buttonAddAccount": "Add new account",
+    "buttonSearch": "Search",
+    "storeManager": "Store manager",
+    "staff": "Staff",
+    "username": "User name",
+    "fullName": "Full name",
+    "emailAddress": "Email",
+    "accountLabel": "Account",
+    "placeholderEmail": "Email address",
+    "placeholderName": "Example, John Smith",
+
+    "detail": {
+      "titleDetailAccount": "Account detail",
+      "buttonChangePassword": "Change password",
+      "buttonEditAccount": "Edit account",
+      "accountUser": "Account"
+    },
+    "edit": {
+      "title": "Edit account",
+      "titleModal": "Update the account infomation",
+      "titleSubModal": "Are you sure?",
+      "updateAccount": "Save changes",
+      "buttonUpdate": "Save",
+      "editSuccess": "The account has been successfully edited"
+    },
+    "add": {
+      "title": "Add new account",
+      "titleModal": "Add account",
+      "titleSubModal": "Please tap the Register button.",
+      "addAccount": "Add account",
+      "buttonAdd": "Register",
+      "addSuccess": "The account has been successfully added"
+    },
+    "delete": {
+      "title": "Delete account",
+      "confirmText": "Are you sure you want to delete {{name}}?",
+      "successMessage": "{{name}} has been successfully deleted.",
+      "modal": {
+        "btnDelete": "Delete"
+      },
+      "errors": {
+        "notDelete": "This account cannot be deleted."
+      }
+    },
+    "valid": "Valid",
+    "invalid": "Invalid"
+  },
+  "product": {
+    "title": "Product management",
+    "buttonAddProduct": "Add product",
+    "add": {
+      "title": "Add product",
+      "buttonAdd": "Confirm",
+      "titleSuccess": "Product registration",
+      "success": "{{field}} was added successfully.",
+      "failure": "An error occurred while adding the product. Please try again.",
+      "confirm": {
+        "title": "Add product",
+        "buttonAdd": "Register product"
+      }
+    },
+    "edit": {
+      "title": "Edit product",
+      "buttonUpdate": "Confirm",
+      "confirm": {
+        "title": "Edit product",
+        "buttonEdit": "Update",
+        "notifySuccess": "The new category has been successfully added.",
+        "titleSuccess": "Product information update"
+      }
+    },
+    "detail": {
+      "title": "Product details",
+      "buttonSaleInfo": "Sales infomations",
+      "buttonEditProduct": "Edit product",
+      "multipleSelect": "Multiple-selection",
+      "soldOut": "Sold out",
+      "onSale": "On sale",
+      "menuRelease": "Menu release",
+      "allowed": "Allowed",
+      "notAllowed": "Not allowed",
+      "release": "Release",
+      "private": "Private"
+    },
+    "modalAddCategory": {
+      "title": "Add category",
+      "buttonAdd": "Add",
+      "success": "The new category has been successfully added.",
+      "placeholder": "Category name",
+      "categoryLabel": "Category name"
+    },
+    "delete": {
+      "title": "Delete product",
+      "confirmText": "Do you want to delete {{name}}, are you sure?",
+      "successMessage": "{{name}} has been successfully deleted.",
+      "modal": {
+        "btnDelete": "Delete"
+    }
+   
+    },
+    "revenue": {
+      "title": "Products sales information",
+      "rankingMonth": "Sales ranking of this month",
+      "categoryRankingMonth": "Category ranking of this month",
+      "numberOfOrder": "Number of orders",
+      "totalSales": "Gross sales this month",
+      "salesContribution": "Sales contribution",
+      "thisMonth": "This month",
+      "thisWeek": "This week",
+      "thisDay": "This day",
+      "times": "times"
+    },
+    "category": "Category",
+    "productName": "Name",
+    "placeholderProductName": "Ex: Omlet Rice",
+    "description": "Description",
+    "placeholderdescription": "Please fill in the product details",
+    "productImage": "Images",
+    "price": "Price",
+    "tax": "(tax)",
+    "addCategory": "Add category",
+    "multipleSelect": "Multiple-selection",
+    "notMultiple": "Multiple-selection not allowed",
+    "soldOut": "Sold out",
+    "onSale": "On sale",
+    "menuRelease": "Menu release",
+    "productDiscount": "Discount",
+    "couponCurrency": "Coupon currency",
+    "couponPercent": "Coupon percent",
+    "noOption": "There are no options.",
+    "noteSubImages": "※Please upload up to 9 sub images",
+    "error": {
+      "duplicateCategoryName": "The category name already exists.",
+      "duplicateProductName": "Product name already exists",
+      "maxFileSize": "Images larger than [5MB] cannot be uploaded.",
+      "maxNumber": "Please upload up to 9 sub images",
+      "couponCurrencyRequired": "Coupon currency is required.",
+      "couponPercentRequired": "Coupon percent is required.",
+      "greaterThanPrice": "The discount amount is more than the price of product",
+      "greaterThan100Percent": "The discount rate is more than 100%",
+      "overPrice": "The amount of the option are more than the price of product",
+      "uploadFailure": "An error occurred while uploading the image."
+    },
+    "allowed": "Allowed",
+    "notAllowed": "Not allowed",
+    "release": "Release",
+    "private": "Private",
+    "settingOptionalTitle": "Option setting",
+    "settingOptional": {
+      "addGroupOptionButton": "Add an option group",
+      "removeOptionButton": "Remove option",
+      "addOptionButton": "Add item",
+      "groups": {
+        "groupNameTitle": "Please fill in the option name",
+        "isRequiredTitle": "Please select the type of choice: required or optional",
+        "optionTypeTitle": "Please select the number of options available",
+        "optionTitle": "Please fill in the option detail",
+        "required": "Required",
+        "optional": "Optional",
+        "radioType": "Single-selection",
+        "checkboxType": "Multiple-selection",
+        "groupOptionName": "Group option name",
+        "placeholderGroupOptionName": "Please fill in the group option name",
+        "optionItem": {
+          "optionName": "Item name",
+          "optionAmount": "Price"
+        }
+      }
+    },
+    "optionTitle": "Option name"
+  },
+  "table": {
+    "detail": {
+      "title": "Table detail",
+      "issue": "Release",
+      "issuePrint": "Release & Print"
+    },
+    "timeIn": "Time in",
+    "timeOut": "Time out",
+    "realeaseDate": "Release date",
+    "addOrder": "Add order",
+    "payment": "Payment",
+    "numberOfTable": "Number of tables",
+    "title": "Table list"
+  },
+  "modalQrCode": {
+    "title": "Printed QR code",
+    "tableName": "Table name",
+    "transactionId": "Transaction ID"
+  },
+  "menu": {
+    "setting": "Setting",
+    "restaurantSetting": "Store setting",
+    "designSetting": "Design setting",
+    "tableSetting": "Table setting",
+    "seatSetting": "Seat setting",
+    "paymentSetting": "Payment setting",
+    "management": "Management",
+    "staffManagement": "Staff management",
+    "salesAnalysis": "Sales analysis",
+    "productManagement": "Product management",
+    "tableList": "Table list",
+    "orderList": "Order list",
+    "notificationUserList": "Notification setting"
+  },
+  "order": {
+    "list": {
+      "title": "Order list",
+      "tabStatus": {
+        "all": "All",
+        "cancel": "Cancel",
+        "finished": "Complete",
+        "unfinished": "Incomplete"
+      },
+      "orderTime": "Order time",
+      "button": {
+        "cancelled": "Cancel",
+        "finished": "Complete"
+      },
+      "cancelledMessage": "The order has been successfully cancelled.",
+      "finishedMessage": "The order has been successfully completed.",
+      "confirmFinished": {
+        "title": "Order confirm",
+        "subTitle": "Do you want to complete the order, are you sure?",
+        "textButton": "Ok"
+      },
+      "confirmCancelled": {
+        "title": "Order confirm",
+        "subTitle": "Do you want to cancel the order, are you sure?",
+        "textButton": "Ok"
+      }
+    },
+    "add": {},
+    "selectProduct": {
+      "title": "[Order] Product selection",
+      "historyOrder": "Order history",
+      "checkCart": "Confirm cart",
+      "timeIn": "Time in",
+      "soldOut": "Sold out",
+      "meal": "Main meals",
+      "titleTransactionId": "Transaction ID"
+    },
+    "product": {
+      "detail": {
+        "title": "【Order】Product detail",
+        "optionTitle": "Select option",
+        "vat": "（Tax inc.）",
+        "options": {
+          "requiredOpt": {
+            "title": "Please choose amount",
+            "required": "required",
+            "chooseMore": "You can choose more than one"
+          }
+        },
+        "button": {
+          "addCart": "Add to cart"
+        },
+        "seats": {
+          "title": "Please select seat",
+          "confirmSeat": "Confirm seat",
+          "undefined": "Undefined",
+          "titleUser": "Please select the seat to deliver the item"
+        },
+        "modal":{
+          "message": "This product cannot be selected in quantity more than 1"
+        }
+      }
+    },
+    "cart": {
+      "title": "【Order】Cart",
+      "seatUndefined" : "Seat undefined",
+      "notify": {
+        "resetCartTitle": "Reset cart",
+        "resetCartMessage": "Deleted items in the cart"
+      },
+      "cartEmpty": "The cart is empty",
+      "label": {
+        "transactionId": "Transaction ID",
+        "transactionStartTime": "Time in"
+      },
+      "modal": {
+        "titleReset": "Do you want to delete items in the cart?",
+        "subTitleReset": "All items in the cart will be deleted",
+        "titleRemove": "Do you want to delete the item?",
+        "subTitleRemove": "",
+        "button": {
+          "reset": "Reset",
+          "remove": "Remove"
+        }
+      },
+      "button": {
+        "resetAll": "Empty the cart",
+        "productList": "Add product",
+        "confirmOrder": "Confirm order"
+      }
+    },
+    "confirmOrder": {
+      "title": "Confirm order",
+      "subTitle": "Do you want to confirm your order?",
+      "transactionId": "Transaction ID",
+      "option": "Option"
+    }
+  },
+  "storeSetting": {
+    "title": "Store setting",
+     "storeName": "Store Name",
+     "languageAndCurrency": "Language and Currency",
+     "building": "building",
+     "noticeToStaff": "Notifications",
+     "editStore": "Edit information",
+     "titleNotify": "Notifications",
+     "design": {
+        "title": "Design setting",
+        "labelImage": "Store logo",
+        "labelColors": "Colors",
+        "mainColor": "Maincolor",
+        "subColor": "Subcolor",
+        "attentionColor": "Accent color",
+        "textColor": "Text color",
+        "btnSetting": "Design preview",
+        "errors": {
+          "maxFileSize": "Images larger than [5MB] cannot be uploaded. "
+        },
+        "colorPalettes": {
+          "title": "Please choose a color",
+          "save": "Setting"
+        }
+     },
+    "designPreview": {
+      "title": "Design preview",
+      "buttonSetting" : "Setting",
+      "topUser" : {
+        "header" : "Store name",
+        "attention" : "【Attention】",
+        "notification" : "Spring fesstival ...",
+        "buttonOrderHistory" : "Order History",
+        "buttonBill": "Payment",
+        "buttonOrderItem": "Order"
+      },
+      "product" : {
+        "category1": "Meal",
+        "category2": "Set meal",
+        "category3": "Drink",
+        "category4": "Desser",
+        "category5": "Souvenir",
+        "productName": "Omelet rice",
+        "description": "description of product",
+        "price": "1,000"
+      },
+      "top" : {
+        "notification": "08/27/2021 Service has been started."
+      },
+      "table": "Table 1",
+      "transaction": "Transaction ID: T1234",
+      "timeIn": "Time in: 08/28/2021 19:55",
+      "settingDesignSuccess": "The design has been successfully set."
+    },
+    "edit": {
+      "title": "Edit store information",
+      "buttonEdit": "Update store information",
+      "storeName": "Store name",
+      "address": "Address",
+      "phoneNumber": "Phone number",
+      "email": "Email address",
+      "language": "Language",
+      "currency": "Currency",
+      "workingTime": "Business hours",
+      "startTime": "Start time",
+      "endTime": "End time",
+      "status": "Status",
+      "messageSuccess": "The store infomation has been updated.",
+      "validation": {
+        "endTimeGreaterThanStartTime": "The end time  must be a time in the future from the start time."
+      },
+      "phoneNumberPlaceholder":"Ex: (+001) 999-999-999"
+    },
+    "payment":{
+      "title": "Payment setting",
+      "buttonSetting": "Setting",
+      "usePayment": "Allow setting online payment function",
+      "success": "Payment setting succeeded",
+      "paymentGateway": "Payment setting",
+      "errors": {
+        "chooseAtLeast": "Choose at least one payment method"
+      }
+    },
+    "seat": {
+      "title": "Seat setting",
+      "setSeat": "Allow setting seat function",
+      "setting": "Setting",
+      "settingSeatSuccess": "The seat has been successfully set."
+    }
+  },
+  "notify": {
+    "buttonAddNotify": "Add notification"
+  },
+  "tableSetting": {
+    "title": "Table setting",
+    "seat": "Seat",
+    "delete": {
+      "titleModalDelete": "Delete table",
+      "subTitleModalDelete": "Do you want to delete table {{name}}?",
+      "deleteSuccess": "Table {{name}} has been successfully deleted.",
+      "buttonModalDelete": "Delete",
+      "notifySuccess": "Table {{name}} has been deleted.",
+      "isUsing": "This table cannot be deleted because it is in use"
+    },
+    "add": {
+      "buttonAdd": "Add table/seat",
+      "buttonAddChair": "Add seat",
+      "titleAdd": "Register new table/seat",
+      "buttonAddTable": "Register information",
+      "notifySuccess": "Table {{name}} has been registered."
+    },
+    "edit": {
+      "titleEdit": "Edit table/seat",
+      "buttonEdit": "Update information",
+      "notifySuccess": "Table {{name}} has been updated."
+    },
+    "tableName": "Table name",
+    "chairName": "Seat name",
+    "placeHolderName": "Counter Table 1",
+    "error": {
+      "duplicateTableName": "This table name already exists.",
+      "tableNotFound": "The table name does not exist.",
+      "invalidTableName": "Table name format is incorrect.",
+      "duplicatedSeatName": "Seat name is dubplicate."
+    }
+  },
+  "transaction": {
+    "detail": {
+      "title": "Transaction Details",
+      "proceedAccount": "Total",
+      "titleRight": "Print QR code",
+      "buttonAccounting": "Payment",
+      "buttonAddOrder": "Add Order",
+      "tax": "(tax)",
+      "total": "Total",
+      "timeIn": "Time in",
+      "timeOut": "Time out",
+      "transactionId": "Transaction ID",
+      "counterTable": "Number of tables",
+      "orderList": "Order list",
+      "orderId": "Order ID",
+      "seat": "Seat1",
+      "complete": "Complete",
+      "inComplete": "Incomplete",
+      "cancel": "Cancel",
+      "optionTitle": "Options"
+    },
+    "cashierPayment": {
+      "title": "Cashier payment",
+      "transactionID": "Transaction ID",
+      "orderId": "Order ID",
+      "taxInclude": "Tax",
+      "subTotal": "Sub total",
+      "total": "Total",
+      "paymentCompleted": "Payment completed",
+      "timeIn": "Time in",
+      "offCoupon": "OFF coupon",
+      "option": "Option",
+      "titlePaymentCompleted": "Complete payment",
+      "contentNotify": "Table {{name}} has been changed from seated to complete payment. Please payment at the cashier.",
+      "titleNotPayment": "An error has occurred.",
+      "confirmNotPayemnt": "Please complete or cancel the incompleted order before payment.",
+      "buttonCancel": "Cancel",
+      "confirmNotPayemntWhenCart": "Payment cannot be made because there are pending orders.",
+      "confirmEnd": {
+        "title": "Confirm finish",
+        "textConfirm": "There are no orders. Are you sure you want to finish?"
+      }
+    }
+  },
+  "revenue": {
+    "title": "Sales analysis",
+    "buttonLeft":"Table analysis",
+    "buttonRight": "Graph analysis",
+    "graphDateTitle": "Daily sales graph",
+    "graphMonthTitle": "Monthly sales graph",
+    "graphTodayTitle": "Today's sales graph",
+    "revenueLabel": "Revenue", 
+    "labelOfGraph": "Thousands",
+    "monthSuffix": "月",
+    "dayOfWeek": {
+      "suffix": "",
+      "sunday": "Su",
+      "saturday": "Sa",
+      "monday": "Mo",
+      "tuesday": "Tu",
+      "wednesday": "We",
+      "thursday": "Th",
+      "friday": "Fr"
+    },
+    "monthOfYear":{
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dec"
+    },
+    "paymentMethod":{
+      "cash": "Cash",
+      "transfer": "Transfer"
+    },
+    "graphAnalysis": {
+      "title": "Graph analysis",
+      "tabProduct": "By product",
+      "tabCategory": "By category",
+      "period": "Period",
+      "comparison": "Comparison",
+      "compareWith": "Compare with:",
+      "clear": "Clear",
+      "apply": "Apply",
+      "graph": "Graph",
+      "noData": "There is no data due to the selected time period."
+    },
+    "tableAnalysis": {
+      "title": "Table analysis",
+      "tabProduct": "By Product",
+      "tabCategory": "By Category",
+      "period": "Period",
+      "comparison": "Comparison",
+      "compareWith": "Compare with:",
+      "clear": "Clear",
+      "apply": "Apply",
+      "table": "Table",
+      "noData": "There is no data due to the selected time period.",
+      "index": "No",
+      "nameCategory": "Category name",
+      "nameProduct":"Product name",
+      "sales": "Revenue",
+      "amountIncreaseOrDecrease": "Increase /Decrease",
+      "growthRate": "Growth rate",
+      "exportCSV": "Export CSV",
+      "compare": " Compare "
+    }
+  },
+  "errorPage": {
+    "500": {
+      "title": "Server error",
+      "subTitle": "This page isn't working.",
+      "content": "Please try again later.",
+      "error": "500"
+    },
+    "404": {
+      "title": "Page not found",
+      "subTitle": "The page you requested could not be found.",
+      "content": "Are you sure the website URL is corect?",
+      "error": "404"
+    },
+    "403": {
+      "title": "Forbidden",
+      "subTitle": "You don't have permission to access this page",
+      "content": "Please check again.",
+      "error": "403"
+    }
+  },
+  "top": {
+    "header" : "Announcement",
+    "buttonLeft": "Order list",
+    "buttonRight": "Table list",
+    "noNotification": "No notifications"
+
+  },
+  "password": {
+    "resetPassword": {
+      "title": "Reset password",
+      "titleSetPW": "Set password",
+      "email": "User name",
+      "newPassword": "New password",
+      "confirmNewPassword": "New password confirmation",
+      "save": "Register",
+      "successTitle": "Reset password",
+      "successTitleSetPW": "Set password",
+      "success": "The password has been resetted.",
+      "successSetPW": "The password has been registered.",
+      "setPWFailure": "Register password failed",
+      "failure": "Reset password failed",
+      "validation": {
+        "invalidPassword": "Passwords must contain at least one lowercase letter, one uppercase letter, one number, and one symbol (excluding \"￥\").",
+        "maxMinLenght": "{{field}} must be at least {{min}} characters and no more than {{max}} characters.",
+        "notMatchPassword": "New password and new password confirmation do not match.",
+        "emailNotFound": "This email has not yet been registered.",
+        "urlResetPWIsInvalid": "The URL to reset password is invalid.",
+        "urlSetPWIsInvalid": "The URL to register new password is invalid.",
+        "userInvalid": "The account has been locked."
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot password",
+      "email": "Email",
+      "btnForgot": "Forgot",
+      "modal": {
+        "title": "Forgot password",
+        "subTitle": "Are you sure?",
+        "email": "Email",
+        "btnForgot": "Forgot"
+      },
+      "successTitle": "Email you registered:",
+      "success": "A confirmation email has been sent.",
+      "validation": {
+        "emailNotFound": "This email has not yet been registered.",
+        "userInvalid": "This account has been locked."
+      }
+    }, 
+    "changePassword": {
+      "title": "Change password",
+      "email": "Email",
+      "fullName": "User name",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "confirmNewPassword": "Confirm new password",
+      "buttonChange": "Change",
+      "validation": {
+        "invalidPassword": "Passwords must contain at least one lowercase letter, one uppercase letter, one number, and one symbol (excluding \"￥\").",
+        "maxMinLenght": "{{field}} must be at least {{min}} characters and no more than {{max}} characters.",
+        "notMatchPassword": "New password and new password confirmation do not match.",
+        "userNotFound": "This email has not yet been registered.",
+        "passwordNotCorrect" : "The current password is incorrect."
+      },
+      "successTitle": "The password has been changed",
+      "failure": "The password could not be changed."
+    }
+  },
+  "notification": {
+    "edit": {
+      "titleModal": "Edit notification",
+      "buttonEdit": "Update",
+      "notifySuccess": "The notification has been updated."
+    },
+    "add": {
+      "titleModal": "Register for new notification",
+      "buttonAdd": "Register",
+      "notifySuccess": "New notification has been registered."
+    },
+    "title": "Title",
+    "content": "Content",
+    "startDate": "Start date",
+    "endDate": "End date",
+    "placeholderDate": "mm/dd/yyyy h：i：s",
+    "public": "Public",
+    "private": "Private"
+  },
+  "notificationUser": {
+    "title": "Notification setting",
+    "btnAdd": "Add new notification",
+    "errors": {
+      "errorMessage": "Notification's data can not be loaded"
+    },
+    "delete": {
+      "title": "Delete Notification",
+      "confirmText": "This notification will be deleted. Are you sure?",
+      "btnDelete": "OK",
+      "successMessage": "Notification successful deleted",
+      "deleteFailure": "Failed to delete Notification"
+    },
+    "add": {
+      "title": "Notification register",
+      "notificationTitle": "Title",
+      "placeholderTitle": "Input notification title",
+      "label": "Label",
+      "placeholderLabel": "Ex: Limited-time offer",
+      "startDate": "Start display",
+      "placeholderDate": "mm/dd/yyyy",
+      "endDate": "Finish display",
+      "content": "Content",
+      "placeholderContent": "Please input the detail",
+      "image": "Image",
+      "btnAdd": "Register",
+      "successMessage": "New notification successful added",
+      "failure": "Failed to add new notification"
+    },
+    "edit": {
+      "title": "Edit notification details",
+      "notificationTitle": "Title",
+      "placeholderTitle": "Input Notification Title",
+      "label": "Label",
+      "placeholderLabel": "Ex: Limited-time offer",
+      "startDate": "Start display",
+      "placeholderDate": "mm/dd/yyyy",
+      "endDate": "Finish display",
+      "content": "Content",
+      "placeholderContent": "Please input the detail",
+      "image": "Image",
+      "btnEdit": "Save",
+      "successMessage": "Notification successful edited",
+      "failure": "Failed to edit Notification"
+    }
+  },
+  "user": {
+    "top": {
+      "transaction": {
+        "transactionId": "Transaction ID",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "errors": {
+          "expriedTransaction": "This QR code has expired",
+          "errorMessage": "QR code can not be read"
+        }
+      },
+      "modal": {
+        "title": "QR code information",
+        "tableName": "Table name",
+        "transactionID": "Transaction ID",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "totalPayment": "Total payment",
+        "status": "Payment status",
+        "complete": "Payment completed "
+      },
+      "button": {
+        "orderHistory": "Order History",
+        "payment": "Payment",
+        "order": "Order"
+      }
+    },
+    "notification": {
+      "detail":{
+        "title": "Notification",
+        "order": "Order"
+      }
+    },
+    "orderHistory": {
+      "title": "Order History",
+      "timeIn": "Time in",
+      "timeOut": "Time out",
+      "transactionId": "Transaction ID",
+      "complete": "Complete",
+      "inComplete": "In complete",
+      "cancel": "Cancel",
+      "optionTitle": "Option",
+      "seatUndefined" : "Unassigned",
+      "orderHistoryBtn": "Order history"
+    },
+    "payment" : {
+      "momo": {
+        "titleSuccess": "Payment Success",
+        "titleFailed": "Payment Failed",
+        "thanks": "Thank you",
+        "quantity": "Quantity: ",
+        "totalAmount": "Total amount: ",
+        "paymentMethod": "Payment method: MoMo",
+        "paymentDate": "Payment date: ",
+        "succeeded": "We have received payment for the following:",
+        "failed": "We aren't able to process your payment.",
+        "paymentAgain": "Please try again.",
+        "orderInfor": "Order information",
+        "paymentCode": "Payment code",
+        "amount": "Amount",
+        "content": "Content",
+        "tryAgain": "Try again"
+      },
+      "onePay": {
+        "titleSuccess": "Payment Success",
+        "titleFailed": "Payment Failed",
+        "thanks": "Thank you",
+        "quantity": "Quantity: ",
+        "totalAmount": "Total amount: ",
+        "paymentMethod": "Payment method: OnePay",
+        "paymentDate": "Payment date: ",
+        "succeeded": "We have received payment for the following:",
+        "failed": "We aren't able to process your payment.",
+        "paymentAgain": "Please try again.",
+        "orderInfor": "Order information",
+        "paymentCode": "Payment code",
+        "amount": "Amount",
+        "content": "Content",
+        "tryAgain": "Try again"
+      }
+    },
+    "paymentDetail": {
+      "title": "Payment detail",
+      "transactionId": "Transaction ID",
+      "timeIn": "Time in",
+      "btnPayment": "Payment",
+      "seatUndefined": "Unassigned",
+      "errors": {
+        "paymentDetailFailure": "An error occurred while displaying your payment details",
+        "paymentMethodsFailure": "An error occurred while displaying your payment methods",
+        "moMoNotSupportPayment": "MoMo does not support payment in this currency",
+        "minimumAmount": "Please pay more than 1.000VND"
+      },
+      "seatOrder": {
+        "options": "Options",
+        "total": "Total"
+      },
+      "paymentMethods": {
+        "title": "Payment methods",
+        "subTitle": "Please choose a payment method",
+        "required": "Required"
+      },
+      "paymentTotal": {
+        "quantity": "Quantity",
+        "total": "Total"
+      },
+      "modal": {
+        "title": "Cash payment",
+        "subTitle": "Thank you for using",
+        "moreSubTitle": "Please pay for your purchases at the cashier counter",
+        "tableName": "Table name",
+        "transactionID": "Transaction ID",
+        "timeIn": "Time in",
+        "timeOut": "Time out",
+        "quantityProduct": "Quantity",
+        "product": "product",
+        "products": "products",
+        "totalPrice": "Total amount"
+      }
+    }
+  },
+  "all": "All",
+  "beforeOrdering": "Before ordering",
+  "seated": "Seated",
+  "completed": "Completed",
+  "ok": "OK",
+  "next": "Next",
+  "cancel": "Cancel",
+  "close": "Close",
+  "return": "Return",
+  "delete": "Delete",
+  "price": "Price",
+  "tax": "(tax)",
+  "unitPrice": "{{unitPrice}}",
+  "confirm": "Confirm",
+  "total": "Total",
+  "transactionName": "T",
+  "accountManagement": "Account management",
+  "analysisManagement": "Sales analysis",
+  "productManagement": "Product management",
+  "japanese": "Japanese",
+  "english": "English",
+  "vietnamese": "Vietnamese",
+  "korean": "Korean",
+  "monday": "Mon",
+  "tuesday": "Tue",
+  "wednesday": "Wed",
+  "thursday": "Thu",
+  "friday": "Fri",
+  "sunday": "Sun",
+  "saturday": "Sat",
+  "holiday": "Holiday",
+  "cash": "Cash",
+  "transfer": "Transfer",
+  "onePay": "OnePay",
+  "momoPay": "MoMoPay",
+
+  "noData": "No data",
+  "loading": "Loading...",
+
+  "unexpectedError": "An error has occurred. Please try again.",
+  "phoneNumber": "Phone Number",
+  "email": "Email",
+  "address": "Address",
+  "completedPayment": "payment completed",
+  "categoryName": "New category name",
+  "returnTop": "Go to top page",
+  "validation": {
+    "required": "{{field}} is required",
+    "length": "{{field}} must be between {{min}} and {{max}} characters.",
+    "minLength": "{{field}} must be at least {{min}} characters.",
+    "maxLength": "{{field}} is not more than {{max}} characters.",
+    "maxLengthForNumber": "{{field}} is not more than {{max}} digits.",
+    "maxLengthForEmail": "{{field}} is not more than {{max}} characters.",
+    "email": "Your email address is invalid",
+    "password": "Your password must contain at least one uppercase, one lowercase and one number digit.",
+    "duplicateUserName": "The user name already exists.",
+    "existedEmail": "This email is already exists.",
+    "invalidUsernameOrPassword": "Invalid username or password.",
+    "userLocked": "Your account has been lock.",
+    "confirmPasswordDoesNotMatch": "Confirm password does not match new password.",
+    "formatEmail": "Invalid email format.",
+    "errorMessage": "An error has occurred. Please try again.",
+    "inValidNumber": "Invalid number.",
+    "endDateGreaterStartDate": "The end date must be a date in the future from the start date.",
+    "notAllowSpace": "Do not use spaces in {{field}}.",
+    "formatPhoneNumber": "Invalid phone number format."
+  }
+}

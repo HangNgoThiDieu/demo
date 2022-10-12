@@ -1,0 +1,75 @@
+@import "assets/styles/_color.scss";
+
+.content {
+  background: $backgroudColor;
+  padding-bottom: 12px;
+
+  .main_transaction {
+    padding: 12px 12px 0 12px;
+  }
+  .list_order_history {
+    margin: 20px 0px;
+  }
+  .seat_name {
+    margin: 24px 12px 10px 12px;
+  }
+  .seat_item {
+    background: $white;
+    border-bottom: 1px solid $lineGrayDark;
+    padding: 6px 12px 4px 12px;
+  }
+  .seat_item_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .right_order {
+    color: $colorPrice;
+    font-size: 20px;
+    font-weight: 700;
+    .tax_price {
+      font-size: 12px;
+      font-weight: 400;
+      color: $colorPrice;
+    }
+  }
+  .status_item {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 6px;
+  }
+  .item_right {
+    padding: 2px 8px;
+    width: fit-content;
+    font-weight: 700;
+  }
+
+  .status_complete {
+    border: 1px solid $iconColor;
+    border-radius: 100px;
+    padding: 2px 8px;
+    font-size: 12px;
+  }
+
+  .status_in_complete{
+    background-color: $lineGrayDark;
+    border: 1px solid $lineGrayDark;
+    border-radius: 100px;
+    padding: 2px 8px;
+    color: $white;
+    font-size: 12px;
+  }
+  .status_cancel{
+    background-color: $lineGrayDark;
+    border: 1px solid $lineGrayDark;
+    border-radius: 100px;
+    padding: 2px 8px;
+    color: $white;
+  }
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid $lineGrayDark;
+  background-color: $lineGrayDark;
+}

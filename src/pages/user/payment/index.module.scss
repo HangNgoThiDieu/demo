@@ -1,0 +1,113 @@
+@import "assets/styles/_color.scss";
+
+.content {
+  background-color: $backgroudColor;
+  
+  .main_transaction {
+    padding: 4px 12px;
+  }
+  .seat_order_item {
+    margin-top: 12px;
+  }
+  .seat_name {
+    padding-left: 12px;
+    padding-bottom: 4px;
+  }
+
+  .separate {
+    border-bottom: 1px solid $lineGray;
+    margin: 0 12px;
+  }
+
+  .product_item_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    background-color: $white;
+
+    .align_center {
+      align-self: center;
+    }
+  }
+
+  .item_left {
+    ul {
+      margin-bottom: 0px;
+    }
+  }
+
+  .item_right {
+    align-self: flex-end;
+  }
+
+  .price {
+    font-weight: 400;
+  }
+
+  .total {
+    background-color: $white;
+    justify-content: flex-end;
+    padding: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .payment_methods {
+    margin-top: 24px;
+    border-bottom: 1px solid $lineGray;
+
+    .title_payment_methods {
+      padding-left: 12px;
+      padding-bottom: 4px;
+    }
+
+    .payment {
+      padding: 16px 12px;
+      background-color: $white;
+    }
+
+    .required {
+      color: $colorPrice;
+    }
+
+    .payment_list {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .payment_total {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: $white;
+    box-shadow: 0px 0 6px $lineGray;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+
+    .quantity {
+      padding: 12px;
+      border-bottom: 1px solid $lineGray;
+    }
+
+    .btn_payment {
+      padding: 12px;
+    }
+  }
+
+  .last_div {
+    background-color: $backgroudColor;
+  }
+
+  .total_price_transaction {
+    padding: 12px;
+  }
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid $lineGrayDark;
+  background-color: $lineGrayDark;
+}

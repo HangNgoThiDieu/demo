@@ -1,0 +1,62 @@
+@import "assets/styles/color";
+
+.root {
+  .box_header_content {
+    background: $backgroudColor;
+    display: flex;
+    padding: 12px;
+  }
+
+  .title {
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box_title {
+    height: 32px;
+    text-align: center;
+    flex: 1;
+    margin-left: 40px;
+  }
+  .box_btn_left {
+    background: $backgroundGreyColor;
+    text-align: center;
+  }
+
+  .logo_image {
+    width: 32px;
+    height: 32px;
+  }
+  .btn_left_right {
+    background: $white;
+    height: 32px;
+    color: $iconColor;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-width: 0px;
+    box-shadow: 0px 1px 2px $iconColor;
+    border-radius: 4px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+  .btn_left {
+    width: 32px;
+  }
+  .icon_back {
+    width: 32px;
+    height: 32px;
+    color: $menuIconColor;
+  }
+
+  @media only screen and (max-width: 350px) {
+    .btn_left_right {
+      font-size: 10px;
+    }
+    .box_title {
+      margin-left: 35px;
+    }
+  }
+}

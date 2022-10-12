@@ -1,0 +1,24 @@
+@import "assets/styles/_color.scss";
+
+.content {
+    .seat {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 32px;
+      align-items: center;
+
+      label input[type="checkbox"] + *::before {
+        height: 21px;
+        width: 21px;
+      }
+    }
+    .form_button {
+      position: fixed;
+      bottom: 0px;
+      width: 100%;
+      padding: 16px 12px;
+      background-color: $white;
+      box-shadow: 0px 0 6px $lineGray;
+      z-index: 100;
+    }
+}

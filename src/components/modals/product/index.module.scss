@@ -1,0 +1,40 @@
+@import "assets/styles/color";
+
+.custom_overlay {
+  background-color: $backgroudColorModal;
+}
+
+.custom_modal {
+  max-width: 500px;
+  margin: 16px;
+  padding: 16px 12px 16px 12px;
+  width: -webkit-fill-available;
+  border-radius: 2px;
+}
+
+.element {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.line {
+  height: 1px;
+  background: $lineGrayWhite;
+}
+
+.image_product {
+  object-fit: cover;
+  width: 70px;
+  height: 70px;
+}
+
+.image_main_product {
+  width: 100%;
+  object-fit: cover;
+}
+
+.image_sub {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}

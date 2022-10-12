@@ -1,0 +1,47 @@
+@import 'assets/styles/color';
+
+.custom_overlay {
+  background-color: $backgroudColorModal;
+}
+
+.custom_modal {
+  max-width: 500px;
+	margin: 16px;
+	padding: 16px 12px 24px 12px;
+	width: -webkit-fill-available;
+	border-radius: 2px ;
+}
+.content_modal{
+	margin-top: 24px;
+}
+.title{
+	line-height: 27px;
+	font-size: 18px;
+	display: block;
+	text-align: center;
+	font-weight: 700;
+	color: $textMain;
+}
+.input_text {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid $lineGrayDark;
+  border-radius: 2px;
+}
+
+.validation_message {
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  padding: 2px 0px;
+  color: red;
+  display: block;
+}
+
+.form_button{
+	display: flex;
+}
+
+.button_group{
+	margin-top: 32px;
+}

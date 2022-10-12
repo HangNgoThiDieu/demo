@@ -1,0 +1,123 @@
+@import "assets/styles/_color.scss";
+
+.table_infor {
+  background-color: $backgroudColor;
+  padding: 0 12px 8px 12px;
+}
+
+.background {
+  background-color: $white;
+}
+
+.count_product {
+  margin: 6px 12px 4px;
+}
+
+.group_bottom {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  padding: 16px 12px;
+  background-color: $white;
+  box-shadow: 0px 0 6px $lineGray;
+  z-index: 98;
+  height: 80px;
+}
+
+.group_cart {
+  position: relative;
+  text-align: end;
+  align-self: center;
+  margin-right: 14px;
+}
+
+.border_right {
+  height: 28px;
+  border-right: 1px solid $lineGrayDark;
+  margin-left: 4px;
+  align-self: center;
+}
+.count_cart {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  color: $white;
+  border-radius: 100px;
+  right: -45%;
+  top: -40%;
+  text-align: center;
+  padding-top: 1px;
+}
+
+.icon_cart {
+  width: 32px;
+  height: 28px;
+}
+
+.price {
+  flex: 1;
+  text-align: end;
+  align-self: center;
+}
+
+.text_price {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.text_tax {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.btn_card {
+  width: auto;
+}
+
+.text_count_card {
+  color: $white;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.group_category {
+  background-color: $white;
+  overflow: auto;
+  white-space: nowrap;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; 
+  scroll-behavior: inherit;
+}
+
+.group_category::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.item_category {
+  display: inline-block;
+  color: $lineGray;
+  text-align: center;
+  padding: 18px 14px 11px 14px;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  border-color: $lineGray;
+}
+
+.background_nodata {
+  height: 500px;
+}
+
+.text_category {
+  font-weight: 700;
+  color: $lineGray;
+}
+
+button:disabled,
+button[disabled]{
+    border: 1px solid $lineGrayDark;
+    background-color: $lineGrayDark;
+}

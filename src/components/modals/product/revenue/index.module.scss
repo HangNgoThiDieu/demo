@@ -1,0 +1,40 @@
+@import "assets/styles/_color.scss";
+
+.custom_overlay {
+    background-color: $black;
+    opacity: 0.7;
+}
+
+.custom_modal {
+    max-width: 500px;
+    margin: 16px;
+    padding: 0;
+    width: -webkit-fill-available;
+    border-radius: 2px;
+}
+
+.wrapper_content {
+    padding: 16px 12px 16px 12px;
+}
+
+.element {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.line {
+    height: 1px;
+    background: $lineGrayWhite;
+}
+
+.form_total {
+    box-shadow: 0px 0 6px $lineGray;
+    padding: 16px 12px 16px 12px;
+}
+
+.image_product {
+    width: 136px;
+    height: 136px;
+    object-fit: cover;
+}

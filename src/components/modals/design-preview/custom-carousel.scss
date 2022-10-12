@@ -1,0 +1,28 @@
+@import 'assets/styles/color';
+
+.carousel-indicators {
+  [data-bs-target] {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: $lineGray;
+    border-top: 0;
+    border-bottom: 0;
+  }
+}
+
+.carousel-indicators {
+  margin-bottom: -10px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("/assets/images/icon_next.svg");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("/assets/images/icon_previous.svg");
+}
+
+.carousel-inner {
+  min-height: 70vh;
+}

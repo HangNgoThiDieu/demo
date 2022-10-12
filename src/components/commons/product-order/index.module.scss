@@ -1,0 +1,53 @@
+@import "assets/styles/color";
+
+.product_select {
+  display: flex;
+  padding: 12px;
+  border-bottom: 1px solid $lineGray;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+.group_image {
+  position: relative;
+}
+
+.sold_out {
+  width: fit-content;
+  border-radius: 100px;
+  position: absolute;
+  top: -4px;
+  left: -4px;
+}
+
+.text_sold_out {
+  color: $white;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 2px 8px;
+}
+.infor_product {
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image_product {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+
+.text_description {
+  font-size: 10px;
+}
+
+.flex_row_info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}

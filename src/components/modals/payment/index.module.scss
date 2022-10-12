@@ -1,0 +1,64 @@
+@import "assets/styles/color";
+
+.custom_overlay {
+  background-color: $backgroudColorModal;
+}
+
+.custom_modal {
+  max-width: 500px;
+  margin: 16px;
+  padding: 0;
+  width: -webkit-fill-available;
+  border-radius: 2px;
+}
+
+.payment_cashier {
+  padding: 16px 12px 24px 12px !important;
+}
+
+.order {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total_order {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.product {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.option {
+  padding-left: 1.5rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 4px;
+}
+
+.line_sub {
+  height: 1px;
+  background: $lineGrayWhite;
+}
+
+.line {
+  height: 1px;
+  background: $lineGrayDark;
+}
+
+.total {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.group_bottom {
+  box-shadow: 0px -2px 4px $lineGray;
+  padding: 13px 12px 16px 12px;
+}
+

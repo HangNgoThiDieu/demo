@@ -1,0 +1,46 @@
+@import 'assets/styles/_color.scss';
+.form_login {
+    display: flex;
+    flex-direction: column;
+    background: $backgroudColor;
+    padding: 100px 0;
+}
+
+.content_form {
+    margin: 12px 12px 0 12px;
+}
+
+.input_text {
+    outline: none;
+    margin-top: 4px;
+}
+
+.forgot_pass {
+    display: block;
+    text-align: center;
+}
+
+.forgot_pass a {
+    text-decoration: none;
+    font-size: 14px;
+    color: $textMain;
+}
+
+.form_button {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 16px 12px;
+    background-color: $white;
+    box-shadow: 0px 0 6px $lineGray;
+    z-index: 98;
+}
+
+.validation_message {
+    text-align: left;
+    width: 100%;
+    font-size: 14px;
+    padding: 2px 0;
+    color: $attentionColor;
+    display: block;
+}

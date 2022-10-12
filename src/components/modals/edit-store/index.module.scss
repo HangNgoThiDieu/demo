@@ -1,0 +1,102 @@
+@import "assets/styles/color";
+
+.custom_overlay {
+  background-color: $black;
+  opacity: 0.7;
+}
+
+.custom_modal {
+  max-width: 500px;
+  margin: 16px;
+  padding: 16px 12px 24px 12px;
+  width: -webkit-fill-available;
+  border-radius: 2px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid $lineGrayDark;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  position: absolute;
+  left: 20%;
+  width: 100%;
+}
+
+.group_time {
+  display: flex;
+}
+
+.filter {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid $lineGrayDark;
+  border-radius: 2px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: url("/assets/images/icon_dropdown.svg") no-repeat calc(100% - 12px) center $white;
+}
+
+.checkbox_style label input[type="checkbox"]+*::before {
+  width: 100%;
+  height: 40px;
+  padding: 10px 12px;
+  margin-right: 16px;
+}
+
+.checkbox_style label input[type="checkbox"]:checked+*::before {
+  background-size: 24px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.align_center {
+  align-items: center;
+  display: flex;
+  width: 18%;
+}
+.text_worktime {
+  align-items: center;
+  display: flex;
+  width: 22%;
+}
+.wrapper_time {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 16px;
+}
+
+.box_time {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex_start {
+  align-items: flex-start;
+}
+
+.text_align_center {
+  margin-top: 2%;
+}
+
+.input_time {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid $lineGrayDark;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid $lineGrayDark;
+  background-color: $lineGrayDark;
+}

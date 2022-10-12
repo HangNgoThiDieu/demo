@@ -1,0 +1,121 @@
+@import "assets/styles/_color.scss";
+
+.content_account {
+  width: 100%;
+  background: $backgroudColor;
+}
+
+.form_group {
+  margin-bottom: 16px;
+}
+
+.form_group img {
+  margin-right: 4px;
+}
+
+.title_account {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.left_title {
+  margin: 10px 0 10px 12px;
+  background: $backgroundGreyColor;
+  text-align: center;
+}
+
+.center_title {
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.box_search {
+  margin: 12px;
+}
+
+.title_search {
+  margin-bottom: 4px;
+}
+
+.title_radio {
+  font-size: 14px;
+  margin-right: 12px;
+}
+
+.main_account {
+  width: 100%;
+}
+
+.main_account ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.main_account ul a {
+  text-decoration: none;
+  flex: 1;
+}
+
+.main_account li {
+  background: $white;
+  border-bottom: 1px solid $lineGrayDark;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_account li span.right_account {
+  border-left: 1px solid $lineGrayWhite;
+  padding: 4px;
+  margin-top: 8px;
+  margin-right: 12px;
+}
+
+.right_account {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form_button {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 16px 12px;
+  height: 80px;
+  background-color: $white;
+  box-shadow: 0px 0 6px $lineGray;
+  z-index: 98;
+}
+
+.btn_add_account{
+  padding: 12px;
+}
+
+.radio {
+  padding: 0 0 8px 0;
+}
+
+.mr_24 {
+  margin-right: 24px;
+}
+
+.text_radio {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.main_account li.no_data {
+  margin: 4px auto;
+  justify-content: center;
+}
+
+.btn_delete {
+  border-width: 0px;
+}

@@ -1,0 +1,142 @@
+@import "assets/styles/_color.scss";
+
+.content {
+  background-color: $white;
+}
+
+.tab_header {
+  display: flex;
+}
+
+.tab_item {
+  width: 50%;
+  text-align: center;
+  color: $lineGray;
+  padding: 12px 0px 11px 0px;
+  border-bottom: 2px solid;
+  border-color: $lineGray;
+}
+
+.text_tab {
+  font-weight: 700;
+  color: $lineGray;
+  font-size: 14px;
+}
+
+.condition_group {
+  padding: 16px 12px;
+}
+
+.date_group {
+  display: flex;
+  margin-top: 6px;
+}
+
+.symbol {
+  font-size: 18px;
+  padding: 0 8px;
+  line-height: 38px;
+}
+.date {
+  input {
+    width: 100%;
+    height: 40px;
+  }
+}
+
+.table_group{
+  padding-bottom: 112px;
+}
+.group_button {
+  display: flex;
+  padding-top: 16px;
+}
+
+.table {
+  background-color: $white;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 50px 0 8px 0;
+  border-top: 1px solid $lineGray;
+  border-bottom: 1px solid $lineGray;
+}
+
+.validation_message {
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  padding: 2px 0px;
+  color: $attentionColor;
+  display: block;
+}
+
+.no_data{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.form_button {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 16px 12px;
+  background-color: $white;
+  box-shadow: 0px 0 6px $lineGray;
+  z-index: 100;
+}
+
+.table_analysis{
+  padding: 12px;
+  font-size: 10px;
+  td,th{
+    border: $lineGrayDark solid 1px !important;
+  }
+}
+.header{
+  background-color: $lineGrayWhite !important;
+}
+
+.table_body td{
+  background-color: $white !important;
+}
+.col_index{
+  width: 13%;
+  text-align: center;
+}
+
+.col_name{
+  width: 27%;
+  text-align: center;
+}
+
+.product_name{
+  min-width: 100px;
+  word-break: break-all;
+}
+.col{
+  width: 20%;
+  text-align: center;
+}
+
+.col{
+  width: 20%;
+  text-align: center;
+}
+
+.col{
+  width: 20%;
+  text-align: center;
+}
+
+.col_money{
+  text-align: end;
+}
+
+.price {
+  color: $colorPrice;
+}
+
+.btn_disable_export{
+  background-color: $lineGrayDark !important;
+  border: 1px solid $lineGrayDark !important;
+}

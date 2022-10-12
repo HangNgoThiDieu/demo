@@ -1,0 +1,20 @@
+@import "assets/styles/color";
+
+.custom_overlay {
+  background-color: $backgroudColorModal;
+}
+
+.custom_modal {
+  max-width: 500px;
+  margin: 25px;
+  padding: 16px 12px 24px 12px;
+  width: -webkit-fill-available;
+  border-radius: 2px;
+}
+
+.info {
+  margin-top: 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid $lineGray;
+  margin-bottom: 16px;
+}

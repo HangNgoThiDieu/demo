@@ -1,0 +1,57 @@
+@import 'assets/styles/color';
+
+.custom_overlay {
+  background-color: $backgroudColorModal;
+}
+.custom_modal {
+  max-width: 500px;
+	margin: 16px;
+	padding: 16px 12px 24px 12px;
+	width: -webkit-fill-available;
+	border-radius: 2px ;
+}
+.content_modal{
+	margin-top: 24px;
+}
+.title{
+	line-height: 27px;
+	font-size: 18px;
+	display: block;
+	text-align: center;
+	font-weight: 700;
+	color: $textMain;
+}
+.sub_title{
+	line-height: 21px;
+	font-size: 14px;
+	display: block;
+	margin-top: 4px;
+	text-align: center;
+	font-weight: 400;
+	color: $textMain;
+}
+.field_group{
+	margin-bottom: 24px;
+}
+.field_title{
+	display: block;
+	line-height: 21px;
+	font-size: 14px;
+	display: block;
+	font-weight: 700;
+	color: $textMain;
+}
+.field_content{
+	display: block;
+	line-height: 21px;
+	font-size: 14px;
+	display: block;
+	font-weight: 400;
+	color: $textMain;
+}
+.button_group{
+	margin-top: 32px;
+}
+.mt_16{
+	margin-top: 16px;
+}

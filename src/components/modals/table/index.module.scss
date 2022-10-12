@@ -1,0 +1,64 @@
+@import "assets/styles/color";
+
+.custom_overlay {
+  background-color: $backgroudColorModal;
+}
+
+.custom_modal {
+  max-width: 500px;
+  margin: 16px;
+  padding: 16px 12px 24px 12px;
+  width: -webkit-fill-available;
+  border-radius: 2px;
+}
+
+.input {
+  height: 40px;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid $lineGrayDark;
+  padding: 8px;
+}
+
+.image_delete {
+  width: 20px;
+  height: 25px;
+}
+
+.group_chair {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.button_delete {
+  background: $subColor;
+  height: 40px;
+  border-radius: 2px;
+  border: none;
+}
+
+.button_group {
+  display: flex;
+  align-items: center;
+}
+
+.validation_message {
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  color: $attentionColor;
+  display: block;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid $lineGrayDark;
+  background-color: $lineGrayDark;
+}

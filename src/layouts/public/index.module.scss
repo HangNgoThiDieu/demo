@@ -1,0 +1,17 @@
+@import "assets/styles/color";
+
+.wrapper {
+  height: 100%;
+  background: $backgroundWhiteColor;
+}
+.main_content {
+  background: $backgroudColor;
+  height: 100vh;
+}
+
+.main_no_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

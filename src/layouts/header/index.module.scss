@@ -1,0 +1,50 @@
+@import "assets/styles/color";
+
+.root {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+
+  .box {
+    background: $backgroundWhiteColor;
+    box-shadow: 0px 1px 2px rgba(43, 22, 22, 0.2);
+    justify-content: center;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+  }
+
+  .box_login {
+    background: $backgroundWhiteColor;
+    box-shadow: 0px 1px 2px rgba(43, 22, 22, 0.2);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 12px;
+    align-items: center;
+    max-height: 52px;
+  }
+
+  .logo {
+    background: $backgroundGreyColor;
+    text-align: center;
+    z-index: 9;
+  }
+
+  .menu_icon {
+    width: 24px;
+    height: 20px;
+    color: $menuIconColor;
+  }
+
+  .public_title{
+    flex: 1;
+    text-align: center;
+  }
+
+  .logo_img { 
+    height: 32px;
+    object-fit: cover;
+  }
+}

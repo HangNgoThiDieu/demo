@@ -1,0 +1,712 @@
+{
+  "lang": "kr",
+  "webTitle": "TOS",
+  "datetimeFormatStringHM": "YYYY年MM月DD日 HH:mm",
+  "dateFormatString": "YYYY年MM月DD日",
+  "dateFormat": "yyyy年MM月dd日",
+  "datePlaceHolder": "dd/mm/yyyy",
+  "dateTimeFormat": "yyyy年MM月dd日 p",
+  "yearMonthFormatString": "YYYY年MM月",
+  "yearFormatString": "YYYY年",
+  "yearMonthFormatPicker": "yyyy年MM",
+  "yearFormatPicker": "yyyy年",
+  "timeInputLabel": "時間",
+  "login": {
+    "title": "로그인",
+    "labelUsername": "메일 주소",
+    "labelPassword": "비밀번호",
+    "forgotPassword": "비밀번호 찾기",
+    "buttonLogin": "로그인",
+    "placeholderEmail": "메일 주소",
+    "placeholderPassword": "・・・・・・",
+    "invalidUsernameOrPassword": "ユーザー名またはパスワードが無効です。",
+    "accountHasBeenLock": "アカウントがロックされました。",
+    "accountDisabled": "アカウントが無効になっています。",
+    "accountLock": "ログインに５回以上失敗しました。５分後にまたお試しください。"
+  },
+  "logout": {
+    "logout" : "ログアウト",
+    "confirm" : {
+      "title" : "ログアウトしてもよろしいですか?"
+    }
+  },
+  "account": {
+    "title": "アカウント一覧",
+    "titleSearch": "ユーザー名",
+    "titleRole": "役割",
+    "buttonAddAccount": "新規アカウント追加",
+    "buttonSearch": "検索",
+    "storeManager": "店舗管理者",
+    "staff": "スタッフ",
+    "username": "ユーザー名",
+    "fullName": "ユーザー名",
+    "emailAddress": "メールアドレス",
+    "accountLabel": "アカウント",
+    "placeholderEmail": "メールアドレス",
+    "placeholderName": "例：山田 太郎",
+
+    "detail": {
+      "titleDetailAccount": "アカウント詳細",
+      "buttonChangePassword": "パスワード変更",
+      "buttonEditAccount": "アカウント編集",
+      "accountUser": "アカウント"
+    },
+    "edit": {
+      "title": "계정 수정",
+      "titleModal": "アカウント情報を更新します",
+      "titleSubModal": "정말로 재설정하시겠습니까?",
+      "updateAccount": "편집",
+      "buttonUpdate": "저장",
+      "editSuccess": "アカウントが編集に成功しました。"
+    },
+    "add": {
+      "title": "새 계정을 만듭니다",
+      "titleModal": "새 계정을 만듭니다",
+      "titleSubModal": "등록하기 버튼을 눌러주세요",
+      "addAccount": "등록하기",
+      "buttonAdd": "등록하기",
+      "addSuccess": "アカウントが追加に成功しました。"
+    },
+    "delete": {
+      "title": "アカウントの取消",
+      "confirmText": "{{name}}を取り消してもよろしいでしょうか？",
+      "successMessage": "{{name}}を取り消しました。",
+      "modal": {
+        "btnDelete": "削除"
+      },
+      "errors": {
+        "notDelete": "このアカウントを削除できません。"
+      }
+    },
+    "valid": "有効",
+    "invalid": "無効"
+  },
+  "product": {
+    "title": "상품관리",
+    "buttonAddProduct": "상품 추가하기",
+    "add": {
+      "title": "상품 추가",
+      "buttonAdd": "상품 추가 조회하기",
+      "titleSuccess": "商品の登録",
+      "success": "{{field}}を登録しました。",
+      "failure": "商品を追加にエラーが発生しました。もう一度お試しください。",
+      "confirm": {
+        "title": "상품 추가",
+        "buttonAdd": "상품 등록하기"
+      }
+    },
+    "edit": {
+      "title": "상품 정보 수정",
+      "buttonUpdate": "상품 추가 조회하기",
+      "confirm": {
+        "title": "상품 편집",
+        "buttonEdit": "저장",
+        "notifySuccess": "商品情報の更新を完了しました。",
+        "titleSuccess": "商品情報の更新"
+      }
+    },
+    "detail": {
+      "title": "상품 상세 정보",
+      "buttonSaleInfo": "매출 정보",
+      "buttonEditProduct": "상품 정보 수정",
+      "multipleSelect": "복수 선택 불가",
+      "soldOut": "품절",
+      "onSale": "판매중",
+      "menuRelease": "메뉴 공개",
+      "allowed": "可能",
+      "notAllowed": "불가",
+      "release": "공개",
+      "private": "非公開"
+    },
+    "modalAddCategory": {
+      "title": "カテゴリの追加",
+      "buttonAdd": "追加",
+      "success": "新規カテゴリが追加に成功しました。",
+      "placeholder": "カテゴリ名",
+      "categoryLabel": "新規カテゴリ名"
+    },
+    "delete": {
+      "title": "商品の取消",
+      "confirmText": "{{name}}を取り消してもよろしいでしょうか？",
+      "successMessage": "{{name}}を取り消しました。",
+      "modal": {
+        "btnDelete": "削除"
+    }
+   
+    },
+    "revenue": {
+      "title": "상품 매출 정보",
+      "rankingMonth": "금월 매출 순위",
+      "categoryRankingMonth": "금월 카테고리 순위",
+      "numberOfOrder": "주문수",
+      "totalSales": "금월 총매출",
+      "salesContribution": "매출 기여도",
+      "thisMonth": "今月",
+      "thisWeek": "今週",
+      "thisDay": "本日",
+      "times": "回"
+    },
+    "category": "카테고리",
+    "productName": "상품명",
+    "placeholderProductName": "예:오므라이스",
+    "description": "商品情報",
+    "placeholderdescription": "商品の詳細を記入してください",
+    "productImage": "상품 사진",
+    "price": "상품 사진",
+    "tax": "（세금 포함）",
+    "yen": "円",
+    "addCategory": "카테고리 추가하기",
+    "multipleSelect": "복수 선택 불가",
+    "notMultiple": "복수 선택 불가",
+    "soldOut": "품절",
+    "onSale": "판매중",
+    "menuRelease": "메뉴 공개",
+    "productDiscount": "할인 상품",
+    "couponCurrency": "割引金額",
+    "couponPercent": "割引率",
+    "noOption": "オプションがありません。",
+    "noteSubImages": "※サブのイメージは9件以内でご選択ください。",
+    "error": {
+      "duplicateCategoryName": "カテゴリ名がすでに存在しています。",
+      "duplicateProductName": "商品名既に存在しています",
+      "maxFileSize": "「5MB]以上の画像はアップロードできません。",
+      "maxNumber": "サブのイメージは9件以内でご選択ください。",
+      "couponCurrencyRequired": "割引価値が必須です。",
+      "couponPercentRequired": "割引価値が必須です。",
+      "greaterThanPrice": "割引金額が定価より超えています",
+      "greaterThan100Percent": "割引率が100％より超えています",
+      "overPrice": "オプションの金額が定価より超えています"
+
+    },
+    "allowed": "可能",
+    "notAllowed": "不可",
+    "release": "公開",
+    "private": "非公開",
+    "settingOptionalTitle": "オプション設定",
+    "settingOptional": {
+      "addGroupOptionButton": "オプションを追加する",
+      "removeOptionButton": "オプションを削除",
+      "addOptionButton": "項目を追加",
+      "groups": {
+        "groupNameTitle": "オプション名を記入してください",
+        "isRequiredTitle": "必須か任意か選択の種類を選んでください",
+        "optionTypeTitle": "選択できる数を選んでください",
+        "optionTitle": "オプション内容を記入してください",
+        "required": "必須",
+        "optional": "任意",
+        "radioType": "単数選択",
+        "checkboxType": "複数選択",
+        "groupOptionName": "オプション名",
+        "placeholderGroupOptionName": "オプション名を記入してください",
+        "optionItem": {
+          "optionName": "アイテム名",
+          "optionAmount": "金額"
+        }
+      }
+    },
+    "optionTitle": "オプション"
+  },
+  "table": {
+    "detail": {
+      "title": "テーブル詳細",
+      "issue": "発行",
+      "issuePrint": "発行・印刷"
+    },
+    "timeIn": "着席日時",
+    "timeOut": "退席日時",
+    "realeaseDate": "発行",
+    "addOrder": "注文追加",
+    "payment": "会計に進む",
+    "numberOfTable": "テーブル数",
+    "title": "テーブル一覧"
+  },
+  "modalQrCode": {
+    "title": "QRコードを印刷しました",
+    "tableName": "テーブル番号",
+    "transactionId": "トランザクションID"
+  },
+  "menu": {
+    "setting": "설정",
+    "restaurantSetting": "상점 설정",
+    "designSetting": "디자인 설정",
+    "tableSetting": "테이블 설정",
+    "seatSetting": "좌석 설정",
+    "paymentSetting": "결제 설정",
+    "management": "관리",
+    "staffManagement": "직원 관리",
+    "salesAnalysis": "매출 분석",
+    "productManagement": "상품 관리",
+    "tableList": "테이블 목록",
+    "orderList": "주문 목록"
+  },
+  "order": {
+    "list": {
+      "title": "주문 목록",
+      "tabStatus": {
+        "all": "전체",
+        "cancel": "취소",
+        "finished": "완료",
+        "unfinished": "미완료"
+      },
+      "orderTime": " 주문시간",
+      "button": {
+        "cancelled": "취소",
+        "finished": "완료"
+      },
+      "cancelledMessage": "注文を取り消しました",
+      "finishedMessage": "注文を完了しました",
+      "confirmFinished": {
+        "title": "注文の完了",
+        "subTitle": "ご注文を完了してもよろしいでしょうか",
+        "textButton": "완료"
+      },
+      "confirmCancelled": {
+        "title": "注文の取消",
+        "subTitle": "ご注文を取り消してもよろしいでしょうか",
+        "textButton": "취소"
+      }
+    },
+    "add": {},
+    "selectProduct": {
+      "title": "【주문】 상품선택",
+      "historyOrder": "注文履歴",
+      "checkCart": "장비구니 조회하기",
+      "timeIn": "着席日時",
+      "soldOut": "품절",
+      "meal": "음식",
+      "titleTransactionId": "트랜잭션ID"
+    },
+    "product": {
+      "detail": {
+        "title": "【注文】商品詳細",
+        "optionTitle": "オプション選択",
+        "vat": "（税込）",
+        "options": {
+          "requiredOpt": {
+            "title": "量をお選びください",
+            "required": "必須",
+            "chooseMore": "複数お選びいただけます"
+          }
+        },
+        "button": {
+          "addCart": "カートに追加"
+        },
+        "seats": {
+          "title": "座席を選択してください",
+          "confirmSeat": "座席を確定",
+          "undefined": "指定なし"
+        }
+      }
+    },
+    "cart": {
+      "title": "【注文】カート",
+      "seatUndefined" : "座席の指定なし",
+      "notify": {
+        "resetCartTitle": "商品の削除",
+        "resetCartMessage": "カートの商品を削除しました"
+      },
+      "cartEmpty": "カートは空です",
+      "label": {
+        "transactionId": "トランザクションID",
+        "transactionStartTime": "着席日時"
+      },
+      "modal": {
+        "titleReset": "カートの商品を削除しますか？",
+        "subTitleReset": "カート内の全ての商品が削除されます",
+        "titleRemove": "商品を削除しますか？",
+        "subTitleRemove": "",
+        "button": {
+          "reset": "削除",
+          "remove": "削除する"
+        }
+      },
+      "button": {
+        "resetAll": "カートを空にする",
+        "productList": "他の商品を注文",
+        "confirmOrder": "注文の確定"
+      }
+    },
+    "confirmOrder": {
+      "title": "注文の確定",
+      "subTitle": "以下の内容で注文を確定しますか？",
+      "transactionId": "トランザクションID",
+      "option": "オプション"
+    }
+  },
+  "storeSetting": {
+    "title": "상점 설정",
+    "storeName": "상점명",
+    "languageAndCurrency": "言語と通貨",
+    "building": "건물",
+    "noticeToStaff": "スタッフへのお知らせ",
+    "editStore": "정보 편집",
+    "titleNotify": "スタッフへのお知らせ",
+    "design": {
+      "title": "デザイン設定",
+      "labelImage": "店舗ロゴ",
+      "labelColors": "カラー",
+      "mainColor": "メインカラー",
+      "subColor": "サブカラー",
+      "attentionColor": "アクセントカラー",
+      "textColor": "テキストカラー",
+      "btnSetting": "デザインプレビュー",
+      "errors": {
+        "maxFileSize": "「5MB]以上の画像はアップロードできません。"
+      },
+      "colorPalettes": {
+        "title": "カラーを選択してください",
+        "save": "설정"
+      }
+    },
+    "designPreview": {
+      "title": "デザインプレビュー",
+      "buttonSetting" : "설정",
+      "topUser" : {
+        "header" : "店名店名店名店名",
+        "attention" : "【期間限定】",
+        "notification" : "春の訪れ パスタ祭り...",
+        "buttonOrderHistory" : "ご注文履歴",
+        "buttonBill": "お会計",
+        "buttonOrderItem": "商品を注文"
+      },
+      "product" : {
+        "category1": "食事",
+        "category2": "定食",
+        "category3": "ドリンク",
+        "category4": "デザート",
+        "category5": "お土産",
+        "productName": "オムライスオムライ",
+        "description": "商品説明文商品説明文商品説明文商品説明文商品説明",
+        "price": "1,000"
+      },
+      "top" : {
+        "notification": "2021/08/27 サービス開始しました。"
+      },
+      "table": "카운터 테이블1",
+      "transaction": "トランザクションID: T1234",
+      "timeIn": "着席日時: YYYY年M月D日 19:55",
+      "settingDesignSuccess": "デザインが設定に成功しました。"
+    },
+    "edit": {
+      "title": "상점 정보 수정",
+      "buttonEdit": "상점 정보 업데이트",
+      "storeName": "상점명",
+      "address": "주소",
+      "phoneNumber": "전화번호",
+      "email": "메일 주소",
+      "language": "言語",
+      "currency": "通貨設定",
+      "workingTime": "영업 일시",
+      "startTime": "開始時間",
+      "endTime": "終了時間",
+      "status": "ステータス",
+      "messageSuccess": "店舗情報を更新しました。",
+      "validation": {
+        "endTimeGreaterThanStartTime": "終了時間は開始時間以降を指定してください。"
+      }
+    },
+    "payment":{
+      "title": "결제 설정",
+      "buttonSetting": "저장",
+      "usePayment": "결제 기능을 이용하기",
+      "success": "決済設定しました。"
+    },
+    "seat": {
+      "title": "좌석 설정",
+      "setSeat": "좌석 기능을 이용하기",
+      "setting": "저장",
+      "settingSeatSuccess": "座席が設定に成功しました。"
+    }
+  },
+  "notify": {
+    "buttonAddNotify": "お知らせの新規登録"
+  },
+  "tableSetting": {
+    "title": "테이블 설정",
+    "delete": {
+      "titleModalDelete": "テーブルの削除",
+      "subTitleModalDelete": "テーブル{{name}}を削除しますか?",
+      "deleteSuccess": "テーブル{{name}}が削除に成功しました。",
+      "buttonModalDelete": "삭제",
+      "notifySuccess": "テーブル名{{name}}を削除しました。"
+    },
+    "add": {
+      "buttonAdd": "테이블/좌석 추가",
+      "buttonAddChair": "좌석을 추가하기",
+      "titleAdd": "신규 테이블/좌석 등록",
+      "buttonAddTable": "등록",
+      "notifySuccess": "テーブル名{{name}}を登録しました。"
+    },
+    "edit": {
+      "titleEdit": "테이블/좌석 편집",
+      "buttonEdit": "저장",
+      "notifySuccess": "テーブル名{{name}}を更新しました。"
+    },
+    "tableName": "테이블명",
+    "chairName": "좌석명",
+    "placeHolderName": "카운터 테이블1",
+    "error": {
+      "duplicateTableName": "このテーブル名はすでに存在しています。",
+      "tableNotFound": "テーブル名が存在していません。",
+      "invalidTableName": "テーブル名の形式が正しくありません。",
+      "duplicatedSeatName": "座席名が重複になっています。"
+    }
+  },
+  "transaction": {
+    "detail": {
+      "title": "트랜잭션 상세 정보",
+      "proceedAccount": "합계",
+      "titleRight": "QRコード印刷",
+      "buttonAccounting": "결제하기",
+      "buttonAddOrder": "주문 추가하기",
+      "yen": "円",
+      "tax": "（세금 포함）",
+      "total": "합계",
+      "timeIn": "着席日時",
+      "timeOut": "退席日時",
+      "transactionId": "トランザクションID",
+      "counterTable": "카운터 테이블",
+      "orderList": "주문 내용 목록",
+      "orderId": "주문ID",
+      "seat": "좌석1",
+      "complete": "완료",
+      "inComplete": "미완료",
+      "cancel": "취소",
+      "optionTitle": "옵션"
+    },
+    "cashierPayment": {
+      "title": "レジ決済",
+      "transactionID": "トランザクションID",
+      "orderId": "注文ID",
+      "taxInclude": "税込",
+      "subTotal": "小計",
+      "total": "合計",
+      "paymentCompleted": "決済完了",
+      "timeIn": "着席日時",
+      "offCoupon": "OFFクーポン",
+      "option": "オプション",
+      "titlePaymentCompleted": "決済の完了",
+      "contentNotify": "テーブル{{name}}を着席中から決済完了に変更しました。レジで決済してください。",
+      "titleNotPayment": "エラーが発生しました。",
+      "confirmNotPayemnt": "会計に進む前に未完了の注文を完了するかまたはキャンセルしてください。",
+      "buttonCancel": "注文をキャンセル"
+    }
+  },
+  "revenue": {
+    "title": "매출 분석",
+    "buttonLeft":"분석 표",
+    "buttonRight": "분석 그래프",
+    "graphDateTitle": "일별 매출 그래프",
+    "graphMonthTitle": "월별 매출 그래프",
+    "revenueLabel": "売上", 
+    "labelOfGraph": "売上：千円",
+    "monthSuffix": "月",
+    "dayOfWeek": {
+      "suffix": "曜日",
+      "sunday": "日",
+      "saturday": "土",
+      "monday": "月",
+      "tuesday": "火",
+      "wednesday": "水",
+      "thursday": "木",
+      "friday": "金"
+    },
+    "graphAnalysis": {
+      "title": "분석 그래프",
+      "tabProduct": "상품별",
+      "tabCategory": "카테고리별",
+      "period": "기간",
+      "comparison": "비교",
+      "compareWith": "비교 기간",
+      "clear": "클리어",
+      "apply": "적용",
+      "graph": "그래프",
+      "noData": "選択された期間によりデータがありません。"
+    },
+    "tableAnalysis": {
+      "title": "表分析",
+      "tabProduct": "상품별",
+      "tabCategory": "카테고리별",
+      "period": "기간",
+      "comparison": "비교",
+      "compareWith": "비교 기간",
+      "clear": "클리어",
+      "apply": "적용",
+      "table": "표",
+      "noData": "選択された期間によりデータがありません。",
+      "index": "順位",
+      "nameCategory": "カテゴリ名",
+      "nameProduct":"商品名",
+      "sales": "売上",
+      "amountIncreaseOrDecrease": "増減",
+      "growthRate": "成長率",
+      "exportCSV": "CSV出力"
+    }
+  },
+  "errorPage": {
+    "500": {
+      "title": "サーバーエラーのため",
+      "subTitle": "この画面を開くことができません",
+      "content": "しばらく時間をおいてからやり直してください",
+      "error": "500"
+    },
+    "404": {
+      "title": "アドレスが違うため",
+      "subTitle": "この画面を開くことができません",
+      "content": "正しいアドレスをご確認ください",
+      "error": "404"
+    },
+    "403": {
+      "title": "権限がないため",
+      "subTitle": "この画面を開くことができません",
+      "content": "管理者の方にご確認ください",
+      "error": "403"
+    }
+  },
+  "top": {
+    "header" : "공지사항",
+    "buttonLeft": "주문 목록",
+    "buttonRight": "테이블 목록",
+    "noNotification": "お知らせがありません"
+  },
+  "password": {
+    "resetPassword": {
+      "title": "新パスワード登録",
+      "titleSetPW": "新パスワード登録",
+      "email": "ユーザー名",
+      "newPassword": "新パスワード",
+      "confirmNewPassword": "新パスワード確認",
+      "save": "登録",
+      "successTitle": "新しいパスワードの登録に",
+      "successTitleSetPW": "新しいパスワードの登録に",
+      "success": "成功しました。",
+      "successSetPW": "成功しました。",
+      "setPWFailure": "パスワードの登録が失敗しました。",
+      "failure": "パスワードのリセットが失敗しました。",
+      "validation": {
+        "invalidPassword": "パスワードは小文字、大文字、数字、記号（￥を除く）が少なくとも1文字ずつ、含まれている必要があります。",
+        "maxMinLenght": "{{field}}は{{min}}文字以上、{{max}}文字以下でご入力ください。",
+        "notMatchPassword": "新パスワードと新パスワード確認が一致しません。",
+        "emailNotFound": "このメールアドレスがまだ登録されていません。",
+        "urlResetPWIsInvalid": "パスワードリセット用URLが無効になりました。",
+        "urlSetPWIsInvalid": "パスワード登録用URLが無効になりました。",
+        "userInvalid": "アカウントがロックされました。"
+      }
+    },
+    "forgotPassword": {
+      "title": "パスワードリセット",
+      "email": "メールアドレス",
+      "btnForgot": "リセット",
+      "modal": {
+        "title": "パスワードをリセットします",
+        "subTitle": "本当によろしいですか？",
+        "email": "メールアドレス",
+        "btnForgot": "リセット"
+      },
+      "successTitle": "登録いただいたメールアドレスに",
+      "success": "パスワードリセットの確認メールを送信しました。",
+      "validation": {
+        "emailNotFound": "このメールアドレスがまだ登録されていません。",
+        "userInvalid": "アカウントがロックされました。"
+      }
+    }, 
+    "changePassword": {
+      "title": "パスワードの変更",
+      "email": "メールアドレス",
+      "fullName": "ユーザー名",
+      "currentPassword": "現在のパスワード",
+      "newPassword": "新パスワード",
+      "confirmNewPassword": "新パスワード確認",
+      "buttonChange": "更新",
+      "validation": {
+        "invalidPassword": "パスワードは小文字、大文字、数字、記号（￥を除く）が少なくとも1文字ずつ、含まれている必要があります。",
+        "maxMinLenght": "{{field}}は{{min}}文字以上、{{max}}文字以下でご入力ください。",
+        "notMatchPassword": "新パスワードと新パスワード確認が一致しません。",
+        "userNotFound": "このユーザー名がまだ登録されていません。",
+        "passwordNotCorrect" : "現在パスワードが正しくありません。"
+      },
+      "successTitle": "パスワードの変更に成功しました。",
+      "failure": "パスワードを更新できませんでした。"
+    }
+  },
+  "notification": {
+    "edit": {
+      "titleModal": "お知らせの編集",
+      "buttonEdit": "更新",
+      "notifySuccess": "お知らせの編集が完了しました。"
+    },
+    "add": {
+      "titleModal": "お知らせの新規登録",
+      "buttonAdd": "新規登録",
+      "notifySuccess": "新しいお知らせを登録しました。"
+    },
+    "title": "お知らせタイトル",
+    "content": "お知らせ内容",
+    "startDate": "掲載開始",
+    "endDate": "掲載終了",
+    "placeholderDate": "yyyy/mm/dd h：i：s",
+    "public": "表示",
+    "private": "非表示"
+  },
+  "all": "すべて",
+  "beforeOrdering": "注文前",
+  "seated": "着席中",
+  "completed": "決済完了",
+  "ok": "OK",
+  "next": "Next",
+  "cancel": "キャンセル",
+  "close": "閉じる",
+  "return": "Return",
+  "delete": "削除する",
+  "price": "値段",
+  "tax": "（税込）",
+  "unitPrice": "円",
+  "confirm": "確定",
+  "total": "合計",
+  "transactionName": "T",
+  "accountManagement": "계정 정보 관리",
+  "analysisManagement": "매출 분석",
+  "productManagement": "상품관리",
+  "japanese": "Japanese",
+  "english": "English",
+  "vietnamese": "Vietnamese",
+  "korean": "Korean",
+  "monday": "月",
+  "tuesday": "火",
+  "wednesday": "水",
+  "thursday": "木",
+  "friday": "金",
+  "sunday": "日",
+  "saturday": "土",
+  "holiday": "祝",
+
+  "noData": "データがありません。",
+  "loading": "読み込んでいます…",
+
+  "unexpectedError": "エラーが発生しました。もう一度お試しください。",
+  "phoneNumber": "電話番号",
+  "email": "メールアドレス",
+  "address": "住所",
+  "completedPayment": "決済完了",
+  "categoryName": "新規カテゴリー名",
+  "validation": {
+    "required": "{{field}}が必須です。",
+    "length": "{{field}}は{{min}}文字以上、{{max}}文字以下でご入力ください。",
+    "minLength": "{{field}}が{{min}}文字以上でなければなりません。",
+    "maxLength": "{{field}}は{{max}}文字以内でご入力ください。",
+    "maxLengthForNumber": "{{field}}は{{max}}桁まで入力してください。",
+    "maxLengthForEmail": "{{field}}は{{max}}文字以内でご入力ください。",
+    "email": "Your email address is invalid",
+    "password": "Your password must contain at least one uppercase, one lowercase and one number digit",
+    "duplicateUserName": "The user name already exists",
+    "existedEmail": "このメールアドレスはすでに存在しています。",
+    "invalidUsernameOrPassword": "Invalid username or password",
+    "userLocked": "Your account has been lock",
+    "confirmPasswordDoesNotMatch": "Confirm password does not match new password",
+    "formatEmail": "メールアドレスの形式が正しくありません。",
+    "errorMessage": "エラーが発生しました。もう一度お試しください。",
+    "inValidNumber": "データが無効です。",
+    "endDateGreaterStartDate": "終了日は開始日より未来の日付を指定してください。",
+    "notAllowSpace": "{{field}}はスペースを使わないでください。"
+  }
+}

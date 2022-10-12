@@ -1,0 +1,28 @@
+@import "assets/styles/_color.scss";
+
+.btn_main {
+	border-radius: 2px;
+	width: 100%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.btn_white {
+	border-radius: 2px;
+	width: 100%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.btn_sub {
+	border-radius: 2px;
+	width: 100%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.group_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

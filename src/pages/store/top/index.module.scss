@@ -1,0 +1,41 @@
+@import "assets/styles/color";
+
+.notifications {
+  padding: 0px 12px;
+  background-color: $white;
+  margin-bottom: 32px;
+}
+
+.group_buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.button_top {
+  padding: 12px;
+}
+
+.title_style {
+  margin-right: 0 !important;
+}
+
+.notification_item {
+  list-style: none;
+  border-bottom: 1px solid $lineGrayWhite;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+  p {
+    margin-top: 0px;
+  }
+
+  p.title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+li.notification_item:last-child {
+  border-bottom: none;
+}

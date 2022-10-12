@@ -1,0 +1,104 @@
+@import "assets/styles/_color.scss";
+
+.content {
+  background-color: $backgroudColor;
+  .graph_date {
+    margin-top: 24px;
+    p {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  }
+
+  .graph_month {
+    margin-top: 24px;
+    p {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  }
+
+  .graph_box {
+    padding: 8px;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+  }
+
+  .graph_calendar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+
+  .btn_calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $white;
+    height: 28px;
+    color: $iconColor;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-width: 0px;
+    border-radius: 2px;
+    font-weight: 700;
+    width: 28px;
+    border: 0.5px solid $menuIconColor;
+  }
+
+  .icon_back {
+    color: $menuIconColor;
+  }
+
+  .icon_next {
+    color: $menuIconColor;
+    transform: rotate(180deg);
+  }
+
+  .text_calendar {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .graph {
+    width: 100%;
+  }
+
+  .tooltip_label {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 4px 4px;
+    border-radius: 4px;
+
+    .tooltip_title {
+      font-size: 12px;
+      font-weight: 700;
+      color: $white;
+    }
+
+    .tooltip_text {
+      font-size: 10px;
+      font-weight: 400;
+      color: $white;
+    }
+  }
+
+  .div_insert {
+    padding-bottom: 135px;
+    background-color: $backgroudColor;
+  }
+
+  button:disabled,
+    button[disabled]{
+        border: 1px solid $lineGray;
+        background-color: $lineGray;
+  }
+  .rotate{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    -webkit-text-orientation: upright;
+  }
+}

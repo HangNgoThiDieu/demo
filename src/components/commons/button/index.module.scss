@@ -1,0 +1,35 @@
+@import "assets/styles/_color.scss";
+.btn_main {
+	background-color: $mainColor;
+	color: $white;
+	border-radius: 2px;
+	border-width: 1px;
+	border: 1px solid $mainColor;
+	font-weight: 700;
+	width: 100%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.btn_white {
+	background-color: $white;
+	color: $iconColor;
+	border-radius: 2px;
+	border-width: 1px;
+	border: 1px solid $iconColor;
+	font-weight: 700;
+	width: 100%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.btn_sub {
+	background-color: $subColor;
+	color: $white;
+	border-radius: 2px;
+	border-width: 1px;
+	border: 1px solid $subColor;
+	width: 100%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}

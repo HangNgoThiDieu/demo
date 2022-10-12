@@ -1,0 +1,93 @@
+@import "assets/styles/_color.scss";
+
+.content {
+  background-color: $backgroudColor;
+
+  .payment {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    align-items: center;
+
+    label input[type="checkbox"] + *::before {
+      height: 21px;
+      width: 21px;
+    }
+  }
+  .form_button {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 16px 12px;
+    background-color: $white;
+    box-shadow: 0px 0 6px $lineGray;
+    z-index: 100;
+  }
+
+  .setting_payment {
+    padding: 12px;
+
+    .header_box {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      position: relative;
+      padding: 8px;
+
+      .icon_arrow {
+        position: absolute;
+        right: 8px;
+        transition: .3s transform ease-in-out;
+        display: inline-block;
+      }
+
+      .icon_arrow_active {
+        position: absolute;
+        right: 8px;
+        transition: .3s transform ease-in-out;
+        display: inline-block;
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+      }
+    }
+
+    .collapse_box {
+      padding: 12px;
+      background-color: $white;
+    }
+
+    .input_text {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid $lineGrayDark;
+      border-radius: 2px;
+      font-size: 14px;
+    }
+
+    .icon_one_pay {
+      width: 54px;
+      height: 24px;
+      margin-left: 8px;
+    }
+
+    .icon_momo {
+      width: 24px;
+      height: 24px;
+      margin-left: 8px;
+    }
+
+    .item_card {
+      margin-top: 8px;
+      border: 1px solid $lineGray;
+    }
+
+    .font_weight_bold{
+      font-weight: 700;
+    }
+
+    label input[type="checkbox"] + *::before {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

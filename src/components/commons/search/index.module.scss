@@ -1,0 +1,18 @@
+@import "assets/styles/color";
+.input_box {
+  position: relative;
+}
+
+.input_text {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid $lineGrayDark;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.icon_search {
+  position: absolute;
+  right: 8px;
+  top: 12px;
+}

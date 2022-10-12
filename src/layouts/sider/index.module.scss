@@ -1,0 +1,77 @@
+@import 'assets/styles/color';
+
+.overlay {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inset: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.menu {
+    overflow-y: auto;
+    margin: 0;
+    background: $backgroundWhiteColor;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 70%;
+    height: 100%;
+    z-index: 1000;
+    padding: 16px 12px 0 24px;
+}
+.menu_ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user_name {
+    margin-left: 12px;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+}
+
+.list_menu {
+    margin-top: 24px;
+}
+
+.sub_menu {
+    margin: 8px 0 0 16px;
+}
+
+.menu_item {
+    text-decoration: none;
+}
+
+.line {
+    margin: 4px 0 12px 0;
+    height: 1px;
+    background: $lineGrayWhite;
+}
+
+.mt_24 {
+    margin-top: 24px;
+}
+
+.mt_32 {
+    margin-top: 32px;
+}
+
+.mt_18 {
+    margin-top: 18px;
+}
+
+

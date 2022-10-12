@@ -1,0 +1,936 @@
+{
+  "lang": "ja",
+  "webTitle": "TOS",
+  "datetimeFormatStringHM": "YYYY年MM月DD日 HH:mm",
+  "datetimeFormatStringHMS": "yyyy年MM月dd日 HH:mm:ss",
+  "dateFormatString": "YYYY年MM月DD日",
+  "dateFormat": "yyyy年MM月dd日",
+  "datePlaceHolder": "yyyy年mm月dd日",
+  "dateTimeFormat": "yyyy年MM月dd日 p",
+  "dateFormatPicker": "yyyy年MM月dd日",
+  "yearMonthFormatString": "YYYY年MM月",
+  "yearFormatString": "YYYY年",
+  "yearMonthFormatPicker": "yyyy年MM月",
+  "yearFormatPicker": "yyyy年",
+  "dateFormatStringSlash": "YYYY/MM/DD",
+  "dateTimeFormatStringSlash" : "yyyy/MM/dd HH:mm",
+  "timeInputLabel": "時間",
+  "login": {
+    "title": "ログイン",
+    "labelUsername": "メールアドレス",
+    "labelPassword": "パスワード",
+    "forgotPassword": "パスワードを忘れた方はこちら",
+    "buttonLogin": "ログイン",
+    "placeholderEmail": "メールアドレス",
+    "placeholderPassword": "・・・・・・",
+    "invalidUsernameOrPassword": "ユーザー名またはパスワードが正しくありません。",
+    "accountHasBeenLock": "アカウントがロックされました。",
+    "accountDisabled": "あなたのアカウントが無効になった為、ログインできなくなりました。",
+    "accountLock": "ログインに５回以上失敗しました。５分後にまたお試しください。",
+    "companyStop": "本店舗が停止となった為、ログインできなくなりました。",
+    "unauthorized": "このアカウントはアクセス権限がありません。",
+    "accountSuspended": "あなたのアカウントが無効になった為、システムが利用できなくなりました。管理者へご連絡ください。",
+    "companySuspended": "本店舗が停止となった為、システムが利用できなくなりました。管理者へご連絡ください。"
+  },
+  "logout": {
+    "logout" : "ログアウト",
+    "confirm" : {
+      "title" : "ログアウトしてもよろしいですか?"
+    }
+  },
+  "account": {
+    "title": "アカウント一覧",
+    "titleSearch": "ユーザー名",
+    "titleRole": "役割",
+    "titleStatus": "ステータス",
+    "buttonAddAccount": "新規アカウント追加",
+    "buttonSearch": "検索",
+    "storeManager": "店舗管理者",
+    "staff": "スタッフ",
+    "username": "ユーザー名",
+    "fullName": "ユーザー名",
+    "emailAddress": "メールアドレス",
+    "accountLabel": "アカウント",
+    "placeholderEmail": "メールアドレス",
+    "placeholderName": "例：山田 太郎",
+
+    "detail": {
+      "titleDetailAccount": "アカウント詳細",
+      "buttonChangePassword": "パスワード変更",
+      "buttonEditAccount": "アカウント編集",
+      "accountUser": "アカウント"
+    },
+    "edit": {
+      "title": "アカウント編集",
+      "titleModal": "アカウント情報を更新します",
+      "titleSubModal": "本当によろしいですか？",
+      "updateAccount": "更新",
+      "buttonUpdate": "保存",
+      "editSuccess": "アカウントが編集に成功しました。"
+    },
+    "add": {
+      "title": "新規アカウント追加",
+      "titleModal": "アカウントを追加します",
+      "titleSubModal": "よろしければ登録ボタンをタップしてください",
+      "addAccount": "追加",
+      "buttonAdd": "追加",
+      "addSuccess": "アカウントが追加に成功しました。"
+    },
+    "delete": {
+      "title": "アカウントの取消",
+      "confirmText": "{{name}}を取り消してもよろしいでしょうか？",
+      "successMessage": "{{name}}を取り消しました。",
+      "modal": {
+        "btnDelete": "削除"
+      },
+      "errors": {
+        "notDelete": "このアカウントを削除できません。"
+      }
+    },
+    "valid": "有効",
+    "invalid": "無効"
+  },
+  "product": {
+    "title": "商品管理",
+    "buttonAddProduct": "商品の追加",
+    "add": {
+      "title": "商品追加",
+      "buttonAdd": "確認",
+      "titleSuccess": "商品の登録",
+      "success": "{{field}}を登録しました。",
+      "failure": "商品を追加にエラーが発生しました。もう一度お試しください。",
+      "confirm": {
+        "title": "商品の追加登録",
+        "buttonAdd": "登録"
+      }
+    },
+    "edit": {
+      "title": "商品編集",
+      "buttonUpdate": "確認",
+      "confirm": {
+        "title": "商品の編集",
+        "buttonEdit": "更新",
+        "notifySuccess": "商品情報の更新を完了しました。",
+        "titleSuccess": "商品情報の更新"
+      }
+    },
+    "detail": {
+      "title": "商品詳細",
+      "buttonSaleInfo": "売上情報",
+      "buttonEditProduct": "商品編集",
+      "multipleSelect": "複数選択",
+      "soldOut": "売り切れ",
+      "onSale": "販売中",
+      "menuRelease": "メニュー公開",
+      "allowed": "可能",
+      "notAllowed": "不可",
+      "release": "公開",
+      "private": "非公開"
+    },
+    "modalAddCategory": {
+      "title": "カテゴリの追加",
+      "buttonAdd": "追加",
+      "success": "新規カテゴリが追加に成功しました。",
+      "placeholder": "カテゴリ名",
+      "categoryLabel": "新規カテゴリ名"
+    },
+    "delete": {
+      "title": "商品の取消",
+      "confirmText": "{{name}}を取り消してもよろしいでしょうか？",
+      "successMessage": "{{name}}を取り消しました。",
+      "modal": {
+        "btnDelete": "削除"
+    }
+   
+    },
+    "revenue": {
+      "title": "商品の売上情報",
+      "rankingMonth": "今月の売上げランキング",
+      "categoryRankingMonth": "今月のカテゴリーランキング",
+      "numberOfOrder": "オーダー数",
+      "totalSales": "今月総売上",
+      "salesContribution": "売上貢献度",
+      "thisMonth": "今月",
+      "thisWeek": "今週",
+      "thisDay": "本日",
+      "times": "回"
+    },
+    "category": "カテゴリ",
+    "productName": "商品名",
+    "placeholderProductName": "例：オムライス",
+    "description": "商品情報",
+    "placeholderdescription": "商品の詳細を記入してください",
+    "productImage": "商品画像",
+    "price": "値段",
+    "tax": "（税込）",
+    "addCategory": "カテゴリを追加",
+    "multipleSelect": "複数選択",
+    "notMultiple": "複数選択不可",
+    "soldOut": "売り切れ",
+    "onSale": "販売中",
+    "menuRelease": "メニュー公開",
+    "productDiscount": "割引商品",
+    "couponCurrency": "割引金額",
+    "couponPercent": "割引率",
+    "noOption": "オプションがありません。",
+    "noteSubImages": "※サブのイメージは9件以内でご選択ください。",
+    "error": {
+      "duplicateCategoryName": "このカテゴリ名はすでに存在しています。",
+      "duplicateProductName": "この商品名はすでに存在しています。",
+      "maxFileSize": "「5MB」以上の画像はアップロードできません。",
+      "maxNumber": "サブのイメージは9件以内でご選択ください。",
+      "couponCurrencyRequired": "割引価値が必須です。",
+      "couponPercentRequired": "割引価値が必須です。",
+      "greaterThanPrice": "割引金額が定価より超えています",
+      "greaterThan100Percent": "割引率が100％より超えています",
+      "overPrice": "オプションの合計金額が定価より超えています",
+      "uploadFailure": "画像のアップロード中にエラーが発生しました。"
+    },
+    "allowed": "可能",
+    "notAllowed": "不可",
+    "release": "公開",
+    "private": "非公開",
+    "settingOptionalTitle": "オプション設定",
+    "settingOptional": {
+      "addGroupOptionButton": "オプションを追加する",
+      "removeOptionButton": "オプションを削除",
+      "addOptionButton": "項目を追加",
+      "groups": {
+        "groupNameTitle": "オプショングループ名を記入してください",
+        "isRequiredTitle": "必須か任意か選択の種類を選んでください",
+        "optionTypeTitle": "選択できる数を選んでください",
+        "optionTitle": "オプション内容を記入してください",
+        "required": "必須",
+        "optional": "任意",
+        "radioType": "単数選択",
+        "checkboxType": "複数選択",
+        "groupOptionName": "オプショングループ名",
+        "placeholderGroupOptionName": "オプショングループ名を記入してください",
+        "optionItem": {
+          "optionName": "オプション内容",
+          "optionAmount": "金額"
+        },
+        "errors": {
+          "duplicatedGroupOptionName": "オプショングループ名が既に存在しています。",
+          "duplicatedOptionName": "オプション内容が既に存在しています。"
+        }
+      }
+    },
+    "optionTitle": "オプション"
+  },
+  "table": {
+    "detail": {
+      "title": "テーブル詳細",
+      "issue": "発行",
+      "issuePrint": "発行・印刷"
+    },
+    "timeIn": "着席日時",
+    "timeOut": "退席日時",
+    "realeaseDate": "発行",
+    "addOrder": "注文追加",
+    "payment": "会計に進む",
+    "numberOfTable": "テーブル数",
+    "title": "テーブル一覧"
+  },
+  "modalQrCode": {
+    "title": "QRコードを印刷しました",
+    "tableName": "テーブル番号",
+    "transactionId": "トランザクションID"
+  },
+  "menu": {
+    "setting": "設定",
+    "restaurantSetting": "店舗設定",
+    "designSetting": "デザイン設定",
+    "tableSetting": "テーブル設定",
+    "seatSetting": "座席設定",
+    "paymentSetting": "決済設定",
+    "management": "管理",
+    "staffManagement": "スタッフ管理",
+    "salesAnalysis": "売上分析",
+    "productManagement": "商品管理",
+    "tableList": "テーブル一覧",
+    "orderList": "注文一覧",
+    "notificationUserList": "お知らせ設定"
+  },
+  "order": {
+    "list": {
+      "title": "注文一覧",
+      "tabStatus": {
+        "all": "すべて",
+        "cancel": "取消",
+        "finished": "完了",
+        "unfinished": "未完了"
+      },
+      "orderTime": "注文",
+      "button": {
+        "cancelled": "取消",
+        "finished": "完了"
+      },
+      "cancelledMessage": "注文を取り消しました",
+      "finishedMessage": "注文を完了しました",
+      "confirmFinished": {
+        "title": "注文の完了",
+        "subTitle": "ご注文を完了してもよろしいでしょうか",
+        "textButton": "完了"
+      },
+      "confirmCancelled": {
+        "title": "注文の取消",
+        "subTitle": "ご注文を取り消してもよろしいでしょうか",
+        "textButton": "取消"
+      }
+    },
+    "add": {},
+    "selectProduct": {
+      "title": "【注文】商品選択",
+      "historyOrder": "注文履歴",
+      "checkCart": "カートを確認",
+      "timeIn": "着席日時",
+      "soldOut": "売り切れ",
+      "meal": "食事",
+      "titleTransactionId": "トランザクションID"
+    },
+    "product": {
+      "detail": {
+        "title": "【注文】商品詳細",
+        "optionTitle": "オプション選択",
+        "vat": "（税込）",
+        "options": {
+          "requiredOpt": {
+            "title": "量をお選びください",
+            "required": "必須",
+            "chooseMore": "複数お選びいただけます"
+          }
+        },
+        "button": {
+          "addCart": "カートに追加"
+        },
+        "seats": {
+          "title": "座席を選択してください",
+          "confirmSeat": "座席を確定",
+          "undefined": "指定なし",
+          "titleUser": "商品をお届けする座席を\n選択してください"
+        },
+        "modal":{
+          "message": "この商品は1つのみ選択できます。"
+        }
+      }
+    },
+    "cart": {
+      "title": "【注文】カート",
+      "seatUndefined" : "座席の指定なし",
+      "notify": {
+        "resetCartTitle": "商品の削除",
+        "resetCartMessage": "カートの商品を削除しました"
+      },
+      "cartEmpty": "カートは空です",
+      "label": {
+        "transactionId": "トランザクションID",
+        "transactionStartTime": "着席日時"
+      },
+      "modal": {
+        "titleReset": "カートの商品を削除しますか？",
+        "subTitleReset": "カート内の全ての商品が削除されます",
+        "titleRemove": "商品を削除しますか？",
+        "subTitleRemove": "",
+        "button": {
+          "reset": "削除",
+          "remove": "削除する"
+        },
+        "titleLeave": "この画面から移動します。よろしいですか？",
+        "subTitleLeave": "このままに移動すると、カートと共に選択した商品が削除されます。よろしいでしょうか。"
+      },
+      "button": {
+        "resetAll": "カートを空にする",
+        "productList": "他の商品を注文",
+        "confirmOrder": "注文の確定"
+      }
+    },
+    "confirmOrder": {
+      "title": "注文の確定",
+      "subTitle": "以下の内容で注文を確定しますか？",
+      "transactionId": "トランザクションID",
+      "option": "オプション"
+    }
+  },
+  "storeSetting": {
+    "title": "店舗設定",
+    "storeName": "店舗名",
+    "languageAndCurrency": "言語と通貨",
+    "building": "建物",
+    "noticeToStaff": "スタッフへのお知らせ",
+    "editStore": "情報編集",
+    "titleNotify": "スタッフへのお知らせ",
+    "design": {
+      "title": "デザイン設定",
+      "labelImage": "店舗ロゴ",
+      "labelColors": "カラー",
+      "mainColor": "メインカラー",
+      "subColor": "サブカラー",
+      "attentionColor": "アクセントカラー",
+      "textColor": "テキストカラー",
+      "btnSetting": "デザインプレビュー",
+      "errors": {
+        "maxFileSize": "「5MB」以上の画像はアップロードできません。"
+      },
+      "colorPalettes": {
+        "title": "カラーを選択してください",
+        "save": "設定"
+      }
+    },
+    "designPreview": {
+      "title": "デザインプレビュー",
+      "buttonSetting" : "設定",
+      "topUser" : {
+        "header" : "店名店名店名店名",
+        "attention" : "【期間限定】",
+        "notification" : "春の訪れ パスタ祭り...",
+        "buttonOrderHistory" : "ご注文履歴",
+        "buttonBill": "お会計",
+        "buttonOrderItem": "商品を注文"
+      },
+      "product" : {
+        "category1": "食事",
+        "category2": "定食",
+        "category3": "ドリンク",
+        "category4": "デザート",
+        "category5": "お土産",
+        "productName": "オムライスオムライ",
+        "description": "商品説明文商品説明文商品説明文商品説明文商品説明",
+        "price": "1,000"
+      },
+      "top" : {
+        "notification": "2021/08/27 サービス開始しました。"
+      },
+      "table": "カウンターテーブル1",
+      "transaction": "トランザクションID: T1234",
+      "timeIn": "着席日時: YYYY年M月D日 19:55",
+      "settingDesignSuccess": "デザインが設定に成功しました。"
+    },
+    "edit": {
+      "title": "店舗情報の編集",
+      "buttonEdit": "更新",
+      "storeName": "店舗名",
+      "address": "住所",
+      "phoneNumber": "電話番号",
+      "email": "メールアドレス",
+      "language": "言語",
+      "currency": "通貨設定",
+      "workingTime": "営業日時",
+      "startTime": "開始時間",
+      "endTime": "終了時間",
+      "status": "ステータス",
+      "messageSuccess": "店舗情報を更新しました。",
+      "validation": {
+        "endTimeGreaterThanStartTime": "終了時間は開始時間以降を指定してください。"
+      },
+      "phoneNumberPlaceholder":"例：(+03) 999-999-999"
+    },
+    "payment":{
+      "title": "決済設定",
+      "buttonSetting": "設定",
+      "usePayment": "決済機能を利用する",
+      "success": "決済機能を設定に成功しました。",
+      "paymentGateway": "決済方法設定",
+      "errors": {
+        "chooseAtLeast": "決済方法が必須です。"
+      }
+    },
+    "seat": {
+      "title": "座席設定",
+      "setSeat": "座席機能を利用する",
+      "setting": "登録",
+      "settingSeatSuccess": "座席が設定に成功しました。"
+    }
+  },
+  "notify": {
+    "buttonAddNotify": "お知らせの新規登録"
+  },
+  "tableSetting": {
+    "title": "テーブル設定",
+    "seat": "座席",
+    "delete": {
+      "titleModalDelete": "テーブルの削除",
+      "subTitleModalDelete": "テーブル{{name}}を削除しますか?",
+      "deleteSuccess": "テーブル{{name}}が削除に成功しました。",
+      "buttonModalDelete": "削除",
+      "notifySuccess": "テーブル名<{{name}}>を削除しました。",
+      "isUsing": "テーブルが着席中の為、削除できません。"
+    },
+    "add": {
+      "buttonAdd": "テーブル・座席の追加",
+      "buttonAddChair": "座席を追加する",
+      "titleAdd": "テーブル・座席の新規登録",
+      "buttonAddTable": "登録",
+      "notifySuccess": "テーブル名<{{name}}>を登録しました。"
+    },
+    "edit": {
+      "titleEdit": "テーブル・座席の編集",
+      "buttonEdit": "更新",
+      "notifySuccess": "テーブル名<{{name}}>を更新しました。"
+    },
+    "tableName": "テーブル名",
+    "chairName": "座席名",
+    "placeHolderName": "カウンターテーブル1",
+    "error": {
+      "duplicateTableName": "このテーブル名はすでに存在しています。",
+      "tableNotFound": "テーブル名が存在していません。",
+      "invalidTableName": "テーブル名の形式が正しくありません。",
+      "duplicatedSeatName": "座席名が重複になっています。"
+    }
+  },
+  "transaction": {
+    "detail": {
+      "title": "トランザクション詳細",
+      "proceedAccount": "会計に進む",
+      "titleRight": "QRコード印刷",
+      "buttonAccounting": "会計に進む",
+      "buttonAddOrder": "注文追加",
+      "tax": "（税込）",
+      "total": "合計",
+      "timeIn": "着席日時",
+      "timeOut": "退席日時",
+      "transactionId": "トランザクションID",
+      "counterTable": "カウンターテーブル1",
+      "orderList": "注文内容の一覧",
+      "orderId": "注文ID",
+      "seat": "座席",
+      "complete": "完了",
+      "inComplete": "未完了",
+      "cancel": "キャンセル",
+      "optionTitle": "オプション"
+    },
+    "cashierPayment": {
+      "title": "レジ決済",
+      "transactionID": "トランザクションID",
+      "orderId": "注文ID",
+      "taxInclude": "税込",
+      "subTotal": "小計",
+      "total": "合計",
+      "paymentCompleted": "決済完了",
+      "timeIn": "着席日時",
+      "offCoupon": "OFFクーポン",
+      "option": "オプション",
+      "titlePaymentCompleted": "決済の完了",
+      "contentNotify": "テーブル<{{name}}>を着席中から決済完了に変更しました。レジで決済してください。",
+      "titleNotPayment": "エラーが発生しました。",
+      "confirmNotPayemnt": "会計に進む前に未完了の注文を完了するかまたはキャンセルしてください。",
+      "confirmNotPayemntWhenCart": "未確定の注文が存在している為、決済できません。",
+      "buttonCancel": "注文をキャンセル",
+      "confirmEnd": {
+        "title": "終了確認",
+        "textConfirm": "注文が1件もありません。ここで終了してもよろしいですか？"
+      }
+    }
+  },
+  "revenue": {
+    "title": "売上分析",
+    "buttonLeft":"表分析",
+    "buttonRight": "グラフ分析",
+    "graphDateTitle": "日次売上グラフ",
+    "graphMonthTitle": "月次売上グラフ",
+    "graphTodayTitle": "本日の売上グラフ",
+    "revenueLabel": "売上", 
+    "labelOfGraph": "売上：千円",
+    "monthSuffix": "月",
+    "dayOfWeek": {
+      "suffix": "曜日",
+      "sunday": "日",
+      "saturday": "土",
+      "monday": "月",
+      "tuesday": "火",
+      "wednesday": "水",
+      "thursday": "木",
+      "friday": "金"
+    },
+    "monthOfYear":{
+      "jan": "1月",
+      "feb": "2月",
+      "mar": "3月",
+      "apr": "4月",
+      "may": "5月",
+      "jun": "6月",
+      "jul": "7月",
+      "aug": "8月",
+      "sep": "9月",
+      "oct": "10月",
+      "nov": "11月",
+      "dec": "12月"
+    },
+    "paymentMethod":{
+      "cash": "現金",
+      "transfer": "振込"
+    },
+    "graphAnalysis": {
+      "title": "グラフ分析",
+      "tabProduct": "商品別",
+      "tabCategory": "カテゴリ別",
+      "period": "期間",
+      "comparison": "比較",
+      "compareWith": "比較期間",
+      "clear": "クリア",
+      "apply": "適用",
+      "graph": "グラフ",
+      "noData": "選択された期間によりデータがありません。"
+    },
+    "tableAnalysis": {
+      "title": "表分析",
+      "tabProduct": "商品別",
+      "tabCategory": "カテゴリ別",
+      "period": "期間",
+      "comparison": "比較",
+      "compareWith": "比較期間",
+      "clear": "クリア",
+      "apply": "適用",
+      "table": "表",
+      "noData": "選択された期間によりデータがありません。",
+      "index": "順位",
+      "nameCategory": "カテゴリ名",
+      "nameProduct":"商品名",
+      "sales": "売上",
+      "amountIncreaseOrDecrease": "増減",
+      "growthRate": "成長率",
+      "exportCSV": "CSV出力",
+      "compare": " 比較 "
+    }
+  },
+  "errorPage": {
+    "500": {
+      "title": "サーバーエラーのため",
+      "subTitle": "この画面を開くことができません",
+      "content": "しばらく時間をおいてからやり直してください",
+      "error": "500"
+    },
+    "404": {
+      "title": "アドレスが違うため",
+      "subTitle": "この画面を開くことができません",
+      "content": "正しいアドレスをご確認ください",
+      "error": "404"
+    },
+    "403": {
+      "title": "権限がないため",
+      "subTitle": "この画面を開くことができません",
+      "content": "管理者の方にご確認ください",
+      "error": "403"
+    }
+  },
+  "top": {
+    "header" : "お知らせ",
+    "buttonLeft": "注文一覧",
+    "buttonRight": "テーブル一覧",
+    "noNotification": "お知らせがありません"
+  },
+  "password": {
+    "resetPassword": {
+      "title": "新パスワード登録",
+      "titleSetPW": "新パスワード登録",
+      "email": "ユーザー名",
+      "newPassword": "新パスワード",
+      "confirmNewPassword": "新パスワード確認",
+      "save": "登録",
+      "successTitle": "新しいパスワードの登録に",
+      "successTitleSetPW": "新しいパスワードの登録に",
+      "success": "成功しました。",
+      "successSetPW": "成功しました。",
+      "setPWFailure": "パスワードの登録が失敗しました。",
+      "failure": "パスワードのリセットが失敗しました。",
+      "validation": {
+        "invalidPassword": "パスワードは小文字、大文字、数字、記号（￥を除く）が少なくとも1文字ずつ、含まれている必要があります。",
+        "maxMinLenght": "{{field}}は{{min}}文字以上、{{max}}文字以下でご入力ください。",
+        "notMatchPassword": "新パスワードと新パスワード確認が一致しません。",
+        "emailNotFound": "このメールアドレスがまだ登録されていません。",
+        "urlResetPWIsInvalid": "パスワードリセット用URLが無効になりました。",
+        "urlSetPWIsInvalid": "パスワード登録用URLが無効になりました。",
+        "userInvalid": "アカウントがロックされました。"
+      }
+    },
+    "forgotPassword": {
+      "title": "パスワードリセット",
+      "email": "メールアドレス",
+      "btnForgot": "リセット",
+      "modal": {
+        "title": "パスワードをリセットします",
+        "subTitle": "本当によろしいですか？",
+        "email": "メールアドレス",
+        "btnForgot": "リセット"
+      },
+      "successTitle": "登録いただいたメールアドレスに",
+      "success": "パスワードリセットの確認メールを送信しました。",
+      "validation": {
+        "emailNotFound": "このメールアドレスがまだ登録されていません。",
+        "userInvalid": "アカウントがロックされました。"
+      }
+    }, 
+    "changePassword": {
+      "title": "パスワードの変更",
+      "email": "メールアドレス",
+      "fullName": "ユーザー名",
+      "currentPassword": "現在のパスワード",
+      "newPassword": "新パスワード",
+      "confirmNewPassword": "新パスワード確認",
+      "buttonChange": "更新",
+      "validation": {
+        "invalidPassword": "パスワードは小文字、大文字、数字、記号（￥を除く）が少なくとも1文字ずつ、含まれている必要があります。",
+        "maxMinLenght": "{{field}}は{{min}}文字以上、{{max}}文字以下でご入力ください。",
+        "notMatchPassword": "新パスワードと新パスワード確認が一致しません。",
+        "userNotFound": "このユーザー名がまだ登録されていません。",
+        "passwordNotCorrect" : "現在パスワードが正しくありません。",
+        "duplicatedOldPassword": "現在のパスワードと新パスワードが同じです。"
+      },
+      "successTitle": "パスワードの変更に成功しました。",
+      "failure": "パスワードを更新できませんでした。"
+    }
+  },
+  "notification": {
+    "edit": {
+      "titleModal": "お知らせの編集",
+      "buttonEdit": "更新",
+      "notifySuccess": "お知らせの編集が完了しました。"
+    },
+    "add": {
+      "titleModal": "お知らせの新規登録",
+      "buttonAdd": "新規登録",
+      "notifySuccess": "新しいお知らせを登録しました。"
+    },
+    "title": "お知らせタイトル",
+    "content": "お知らせ内容",
+    "startDate": "掲載開始",
+    "endDate": "掲載終了",
+    "placeholderDate": "yyyy年MM月dd日",
+    "public": "表示",
+    "private": "非表示"
+  },
+  "notificationUser": {
+    "title": "お知らせ設定",
+    "btnAdd": "新規お知らせ登録",
+    "errors": {
+      "errorMessage": "お知らせのデータが読み込めません。"
+    },
+    "delete": {
+      "title": "お知らせ削除",
+      "confirmText": "こちらのお知らせを削除してもよろしいでしょうか？",
+      "btnDelete": "削除",
+      "successMessage": "お知らせが削除に成功しました。",
+      "deleteFailure": "お知らせが削除に失敗しました。"
+    },
+    "add": {
+      "title": "お知らせ登録",
+      "notificationTitle": "タイトル",
+      "placeholderTitle": "お知らせのタイトルを入力",
+      "label": "ラベル",
+      "placeholderLabel": "ラベルを記入してください",
+      "startDate": "表示開始",
+      "placeholderDate": "yyyy/mm/dd",
+      "endDate": "表示終了",
+      "content": "内容",
+      "placeholderContent": "詳細を記入してください",
+      "image": "画像",
+      "btnAdd": "登録",
+      "successMessage": "新規お知らせが追加に成功しました。",
+      "failure": "新規お知らせが追加に失敗しました。"
+    },
+    "edit": {
+      "title": "お知らせ詳細・編集",
+      "notificationTitle": "タイトル",
+      "placeholderTitle": "お知らせのタイトルを入力",
+      "label": "ラベル",
+      "placeholderLabel": "ラベルを記入してください",
+      "startDate": "表示開始",
+      "placeholderDate": "yyyy/mm/dd",
+      "endDate": "表示終了",
+      "content": "内容",
+      "placeholderContent": "詳細を記入してください",
+      "image": "画像",
+      "btnEdit": "保存",
+      "successMessage": "お知らせが編集に成功しました。",
+      "failure": "お知らせが編集に失敗しました。"
+    }
+  },
+  "user": {
+    "top": {
+      "transaction": {
+        "transactionId": "トランザクションID",
+        "startDate": "着席日時",
+        "endDate": "退席日時",
+        "errors": {
+          "expriedTransaction": "このQRコードの有効期限が切れました。",
+          "errorMessage": "QRコードが読み取れません。"
+        }
+      },
+      "modal": {
+        "title": "QRコード情報",
+        "tableName": "テーブル名",
+        "transactionID": "トランザクションID",
+        "startDate": "着席日時",
+        "endDate": "退席日時",
+        "totalPayment": "合計金額",
+        "status": "決済状況",
+        "complete": "決済完了"
+      },
+      "button": {
+        "orderHistory": "ご注文履歴",
+        "payment": "お会計",
+        "order": "商品を注文"
+      }
+    },
+    "notification": {
+      "detail":{
+        "title": "お知らせ",
+        "order": "商品を注文"
+      }
+    },
+    "orderHistory": {
+      "title": "ご注文履歴",
+      "timeIn": "着席日時",
+      "timeOut": "退席日時",
+      "transactionId": "トランザクションID",
+      "complete": "完了",
+      "inComplete": "未完了",
+      "cancel": "キャンセル",
+      "optionTitle": "オプション",
+      "seatUndefined" : "座席の指定なし",
+      "orderHistoryBtn": "注文履歴"
+    },
+    "payment" : {
+      "momo": {
+        "titleSuccess": "決済が成功しました。",
+        "titleFailed": "決済が失敗しました。",
+        "thanks": "ご利用ありがとうございます。",
+        "quantity": "数量: ",
+        "totalAmount": "合計金額: ",
+        "paymentMethod": "支払い方法: MoMo",
+        "paymentDate": "ご注文日時: ",
+        "succeeded": "以下の内容でお支払いを承りました。",
+        "failed": "決済処理中にエラーが発生しました。",
+        "paymentAgain": "もう一度お試しください。",
+        "orderInfor": "注文情報",
+        "paymentCode": "決済コード",
+        "amount": "合計",
+        "content": "内容",
+        "tryAgain": "再決済"
+      }, 
+      "onePay": {
+        "titleSuccess": "決済が成功しました。",
+        "titleFailed": "決済が失敗しました。",
+        "thanks": "ご利用ありがとうございます。",
+        "quantity": "数量: ",
+        "totalAmount": "合計金額: ",
+        "paymentMethod": "支払い方法: OnePay",
+        "paymentDate": "ご注文日時: ",
+        "succeeded": "以下の内容でお支払いを承りました。",
+        "failed": "決済処理中にエラーが発生しました。",
+        "paymentAgain": "もう一度お試しください。",
+        "orderInfor": "注文情報",
+        "paymentCode": "決済コード",
+        "amount": "合計",
+        "content": "内容",
+        "tryAgain": "再決済"
+      }
+    },
+    "paymentDetail": {
+      "title": "お会計内容",
+      "transactionId": "トランザクションID",
+      "timeIn": "着席日時",
+      "btnPayment": "お会計",
+      "seatUndefined": "座席の指定なし",
+      "errors": {
+        "paymentDetailFailure": "お支払い詳細の表示中にエラーが発生しました。",
+        "paymentMethodsFailure": "お支払い方法の表示中にエラーが発生しました。",
+        "moMoNotSupportPayment": "MoMoはこの通貨の決済をサポートし兼ねます。",
+        "minimumAmount": "1.000VND以上の金額をお支払いください。"
+      },
+      "seatOrder": {
+        "options": "オプション",
+        "total": "合計"
+      },
+      "paymentMethods": {
+        "title": "お支払い方法",
+        "subTitle": "お支払い方法を選択してください",
+        "required": "必須"
+      },
+      "paymentTotal": {
+        "quantity": "数量",
+        "total": "合計"
+      },
+      "modal": {
+        "title": "レジ支払い",
+        "subTitle": "ご利用ありがとうございます。",
+        "moreSubTitle": "レジで料金をお支払いください。",
+        "tableName": "テーブル名",
+        "transactionID": "トランザクションID",
+        "timeIn": "着席日時",
+        "timeOut": "退席日時",
+        "quantityProduct": "数量",
+        "product": "商品",
+        "products": "商品",
+        "totalPrice": "合計金額"
+      }
+    }
+  },
+  "all": "すべて",
+  "beforeOrdering": "注文前",
+  "seated": "着席中",
+  "completed": "決済完了",
+  "ok": "OK",
+  "next": "Next",
+  "cancel": "キャンセル",
+  "close": "閉じる",
+  "return": "Return",
+  "delete": "削除する",
+  "price": "値段",
+  "tax": "（税込）",
+  "unitPrice": "{{unitPrice}}",
+  "confirm": "確定",
+  "total": "合計",
+  "transactionName": "T",
+  "accountManagement": "アカウント管理",
+  "analysisManagement": "売上分析",
+  "productManagement": "商品管理",
+  "japanese": "Japanese",
+  "english": "English",
+  "vietnamese": "Vietnamese",
+  "korean": "Korean",
+  "monday": "月",
+  "tuesday": "火",
+  "wednesday": "水",
+  "thursday": "木",
+  "friday": "金",
+  "sunday": "日",
+  "saturday": "土",
+  "holiday": "祝",
+  "cash": "レジで支払う",
+  "transfer": "振込",
+  "onePay": "OnePay",
+  "momoPay": "MoMoPay", 
+
+  "noData": "データがありません。",
+  "loading": "読み込んでいます…",
+
+  "unexpectedError": "エラーが発生しました。もう一度お試しください。",
+  "phoneNumber": "電話番号",
+  "email": "メールアドレス",
+  "address": "住所",
+  "completedPayment": "決済完了",
+  "categoryName": "新規カテゴリー名",
+  "returnTop": "トップ画面へ戻る",
+  "validation": {
+    "required": "{{field}}が必須です。",
+    "length": "{{field}}は{{min}}文字以上、{{max}}文字以下でご入力ください。",
+    "minLength": "{{field}}が{{min}}文字以上でなければなりません。",
+    "maxLength": "{{field}}は{{max}}文字以内でご入力ください。",
+    "maxLengthForNumber": "{{field}}は{{max}}桁まで入力してください。",
+    "maxLengthForEmail": "{{field}}は{{max}}文字以内でご入力ください。",
+    "email": "Your email address is invalid",
+    "password": "Your password must contain at least one uppercase, one lowercase and one number digit",
+    "duplicateUserName": "The user name already exists",
+    "existedEmail": "このメールアドレスはすでに存在しています。",
+    "invalidUsernameOrPassword": "Invalid username or password",
+    "userLocked": "Your account has been lock",
+    "confirmPasswordDoesNotMatch": "Confirm password does not match new password",
+    "formatEmail": "メールアドレスの形式が正しくありません。",
+    "errorMessage": "エラーが発生しました。もう一度お試しください。",
+    "inValidNumber": "データが無効です。",
+    "endDateGreaterStartDate": "終了日は開始日より未来の日付を指定してください。",
+    "notAllowSpace": "{{field}}はスペースを使わないでください。",
+    "formatPhoneNumber": "電話番号の形式が正しくありません。"
+  }
+}

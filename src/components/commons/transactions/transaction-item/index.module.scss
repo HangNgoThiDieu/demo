@@ -1,0 +1,36 @@
+@import "assets/styles/color";
+
+.table_detail_item {
+  background-color: $white;
+  border-bottom: 1px solid $lineGray;
+  padding: 10px 12px 0px 12px;
+}
+
+.table_detail_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div_time {
+  margin-bottom: 8px;
+}
+.group_time {
+  display: flex;
+}
+
+.label_time {
+  margin-left: 4px;
+}
+
+.group_button {
+  display: flex;
+  justify-content: end;
+  padding-top: 20px;
+  padding-bottom: 16px;
+}
+
+.btn_add {
+  width: calc(50% - 4px);
+  margin-right: 0px;
+  margin-left: 4px;
+}

@@ -1,0 +1,62 @@
+@import "assets/styles/_color.scss";
+
+.content {
+  .btn_add_main {
+    width: 100%;
+    padding: 80px;
+    img {
+      width: 70px;
+      height: auto;
+      padding: 0;
+    }
+  }
+
+  .image {
+    position: relative;
+  }
+
+  .image_main_div {
+    width: 100%;
+    position: relative;
+  }
+
+  .image_main_item {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .colors{
+    padding-bottom: 84px;
+    background-color: $backgroudColor;
+  }
+  .color_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    p{
+      min-width: 112px;
+    }
+    .color_box {
+      width: 112px;
+      height: 40px;
+    }
+  }
+
+  .form_button {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 16px 12px;
+    background-color: $white;
+    box-shadow: 0px 0 6px $lineGray;
+    z-index: 100;
+  }
+
+  .icon_close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+  }
+}
