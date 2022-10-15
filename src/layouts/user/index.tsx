@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next';
 import { useHistory, useLocation } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { transactionService } from 'services/transaction.service';
+// import { transactionService } from 'services/transaction.service';
 import { TransactionInfo } from 'types/models/trans-info.model';
 import { ColorsResult } from 'types/results/colors.result';
 import { COLORS, CURRENCY_UNITS, FLAG_CODES, LANGUAGE_USER, TRANSACTION_INFO, TRANSLATE_LIST } from 'utils';
@@ -77,40 +77,40 @@ const UserLayout = ({ children }: any) => {
 
     const getInfoCompanyByTransaction = async () => {
       try {
-        var compInfo = await transactionService.getCompanyInfoByTransaction(transId, comId);
-        // set store name for header
-        tokenHelper.setCompanyName(compInfo.companyName);
-        let compName =  document.getElementById("compName");
-        if (compName) {
-          compName.textContent = compInfo.companyName;
-        }
-        // set logo
-        setLogo(compInfo.logoCompany);
-        // set color system
-        if (compInfo.mainColor || compInfo.subColor || compInfo.textColor || compInfo.accentColor) {
-          const colorsResult: ColorsResult = {
-            mainColor: compInfo.mainColor,
-            subColor: compInfo.subColor,
-            textColor: compInfo.textColor,
-            accentColor: compInfo.accentColor
-          };
-          tokenHelper.setColorsToStorage(COLORS, colorsResult);
-          setter(colorsResult);
-        }
-        // set language for system
-        let languageExist = tokenHelper.getLanguageFromStorage(LANGUAGE_USER);
-        if (languageExist == undefined) {
-          let language = TRANSLATE_LIST.filter((x) => x.key == compInfo.language).map((y) => y.value).shift();
-          tokenHelper.setLanguageToStorage(LANGUAGE_USER, language);
-          i18n.changeLanguage(tokenHelper.getLanguageFromStorage(LANGUAGE_USER));
-          setLang(language as string);
-        }
-        else {
-          i18n.changeLanguage(tokenHelper.getLanguageFromStorage(LANGUAGE_USER));
-          setLang(languageExist as string);
-        }
-        // set currencyUnit for
-        tokenHelper.setPropertyToStorage(CURRENCY_UNITS, compInfo.currencyUnit);
+        // // var compInfo = await transactionService.getCompanyInfoByTransaction(transId, comId);
+        // // set store name for header
+        // tokenHelper.setCompanyName(compInfo.companyName);
+        // let compName =  document.getElementById("compName");
+        // if (compName) {
+        //   compName.textContent = compInfo.companyName;
+        // }
+        // // set logo
+        // setLogo(compInfo.logoCompany);
+        // // set color system
+        // if (compInfo.mainColor || compInfo.subColor || compInfo.textColor || compInfo.accentColor) {
+        //   const colorsResult: ColorsResult = {
+        //     mainColor: compInfo.mainColor,
+        //     subColor: compInfo.subColor,
+        //     textColor: compInfo.textColor,
+        //     accentColor: compInfo.accentColor
+        //   };
+        //   tokenHelper.setColorsToStorage(COLORS, colorsResult);
+        //   setter(colorsResult);
+        // }
+        // // set language for system
+        // let languageExist = tokenHelper.getLanguageFromStorage(LANGUAGE_USER);
+        // if (languageExist == undefined) {
+        //   let language = TRANSLATE_LIST.filter((x) => x.key == compInfo.language).map((y) => y.value).shift();
+        //   tokenHelper.setLanguageToStorage(LANGUAGE_USER, language);
+        //   i18n.changeLanguage(tokenHelper.getLanguageFromStorage(LANGUAGE_USER));
+        //   setLang(language as string);
+        // }
+        // else {
+        //   i18n.changeLanguage(tokenHelper.getLanguageFromStorage(LANGUAGE_USER));
+        //   setLang(languageExist as string);
+        // }
+        // // set currencyUnit for
+        // tokenHelper.setPropertyToStorage(CURRENCY_UNITS, compInfo.currencyUnit);
       }
       catch (err) {
         toast.error(t("user.top.transaction.errors.errorMessage"));
