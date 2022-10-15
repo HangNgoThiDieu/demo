@@ -7,11 +7,17 @@ import { ProductRankResult } from "types/results/product/product-rank.result";
 import { ProductSalesResult } from "types/results/product/product-sales.result";
 import { ProductSelectResult } from "types/results/product/product-select.result";
 import { ProductResult } from "types/results/product/product.result";
+import { ProductDemotResult } from "types/results/product/product.result.demo";
 import api from "utils/api";
 
 const getListProduct = async () => {
     return await api.post<ProductResult[]>(Config.API_URL.LIST_PRODUCT, {});
 }
+
+const getListProductDemo = async () => {
+    return await api.post<ProductDemotResult[]>(Config.API_URL.LIST_PRODUCT, {});
+}
+
 
 const getProductDetail = async (productId: number) => {
     return await api.get<ProductDetailResult>(Config.API_URL.DETAIL_PRODUCT(productId), {});
@@ -54,6 +60,7 @@ const getProductSelectForUser = async (transactionId: number, orderId: number, c
 }
 
 export const productService = {
+    getListProductDemo,
     getProductDetail,
     getListProduct,
     getProductSelect,

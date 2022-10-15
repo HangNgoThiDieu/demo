@@ -22,6 +22,9 @@ const ProductComponent = lazy(() => import("pages/store/product"));
 const EditProductComponent = lazy(() => import("../pages/store/product/edit"));
 const AddProductComponent = lazy(() => import("../pages/store/product/add"));
 
+// demo
+const ProductsDemoComponent = lazy(() => import("pages/store/product-demo"));
+
 const TransactionDetailComponent = lazy(
   () => import("pages/store/transaction/detail")
 );
@@ -90,6 +93,14 @@ const AppRouter = () => {
           path="/account/:userId"
           exact
         />
+
+        {/* demo */}
+        <PrivateRoute
+          component={ProductsDemoComponent}
+          path="/product-demo"
+          exact
+        />
+
         <PublicRoute
           restricted={true}
           component={LoginComponent}
